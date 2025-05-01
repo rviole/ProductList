@@ -125,7 +125,7 @@ function renderProductCard(product) {
   
   const price = document.createElement('div');
   price.className = 'product-price';
-  price.textContent = `$${product.sell_price.toFixed(2)}`;
+  price.textContent = `€${product.sell_price.toFixed(2)}`;
   
   meta.appendChild(unit);
   meta.appendChild(price);
