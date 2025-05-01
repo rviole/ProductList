@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="flex flex-col min-h-screen">
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1 class="site-title">Product Catalog</h1>
+          <button class="nav-toggle" aria-label="Toggle menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+          <nav class="nav" id="main-nav">
+            <ul class="nav-list" id="nav-list">
+              <!-- Navigation links will be populated here -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-grow">
+      <div class="container">
+        <div id="content">
+          <div class="loading">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Loading products...</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
