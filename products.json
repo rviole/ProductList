@@ -7,7 +7,7 @@
           "name": "Chips LAYS",
           "description": "Fromage Flavor, MEGA pack",
           "unit": "200 g",
-          "sell_price": 2.5,
+          "sell_price": 2,
           "quantity": 4,
           "image": "assets/LAYS_FROMAGE.png"
         },
@@ -15,7 +15,7 @@
           "name": "Chips LAYS",
           "description": "Cheese Flavor, MEGA pack",
           "unit": "200 g",
-          "sell_price": 2.5,
+          "sell_price": 2,
           "quantity": 4,
           "image": "assets/LAYS_CHEESE.webp"
         },
@@ -23,7 +23,7 @@
           "name": "Chips LAYS",
           "description": "Onion Flavor, MEGA pack",
           "unit": "200 g",
-          "sell_price": 2.5,
+          "sell_price": 2,
           "quantity": 4,
           "image": "assets/LAYS_ONION.png"
         },
@@ -31,7 +31,7 @@
           "name": "Chips LAYS",
           "description": "Tomato Flavor, MEGA pack",
           "unit": "200 g",
-          "sell_price": 2.5,
+          "sell_price": 2,
           "quantity": 4,
           "image": "assets/LAYS_TOMATO.png"
         },
@@ -84,7 +84,7 @@
           "name": "Jelly \"Haribo\"",
           "description": "GoldBears",
           "unit": "100 g",
-          "sell_price": 2.0,
+          "sell_price": 1.8,
           "quantity": 2,
           "image": "assets/haribo.webp"
         },
@@ -164,7 +164,7 @@
           "name": "7 Days Croissant",
           "description": "Cocoa & Vanilla Flavor",
           "unit": "1 pcs",
-          "sell_price": 0.8,
+          "sell_price": 0.7,
           "quantity": 3,
           "image": "assets/7days_vanilla_and_chocolate.webp"
         },
@@ -172,7 +172,7 @@
           "name": "7 Days Croissant",
           "description": "Cream & Cookies Flavor",
           "unit": "1 pcs",
-          "sell_price": 0.8,
+          "sell_price": 0.7,
           "quantity": 5,
           "image": "assets/7days_cookies_and_cream.png"
         }
@@ -206,7 +206,7 @@
           "name": "Pepsi",
           "description": "Can",
           "unit": "0.33 L",
-          "sell_price": 1.0,
+          "sell_price": 0.8,
           "quantity": 18,
           "image": "assets/pepsi_0.33.png"
         },
@@ -214,7 +214,7 @@
           "name": "Pepsi",
           "description": "Bottle",
           "unit": "0.5 L",
-          "sell_price": 1.2,
+          "sell_price": 1,
           "quantity": 2,
           "image": "assets/pepsi_0.5L.jpeg"
         },
@@ -222,7 +222,7 @@
           "name": "Pepsi",
           "description": "Bottle",
           "unit": "1.5 L",
-          "sell_price": 2.0,
+          "sell_price": 1.8,
           "quantity": 3,
           "image": "assets/pepsi_1.5L.png"
         },
@@ -230,7 +230,7 @@
           "name": "Mirinda",
           "description": "Can",
           "unit": "0.33 L",
-          "sell_price": 1.0,
+          "sell_price": 0.8,
           "quantity": 1,
           "image": "assets/mirinda_0.33.png"
         },
@@ -238,7 +238,7 @@
           "name": "Mirinda",
           "description": "Bottle",
           "unit": "0.5 L",
-          "sell_price": 1.2,
+          "sell_price": 1,
           "quantity": 2,
           "image": "assets/mirinda_0.5L.png"
         },
@@ -254,7 +254,7 @@
           "name": "CULT",
           "description": "JUICY OCEAN Flavor, Energy Drink",
           "unit": "0.5 L",
-          "sell_price": 1.2,
+          "sell_price": 1,
           "quantity": 0,
           "image": "assets/cult_juice_ocean.png"
         },
@@ -262,7 +262,7 @@
           "name": "CULT",
           "description": "Original Flavor, Energy Drink",
           "unit": "0.5 L",
-          "sell_price": 1.2,
+          "sell_price": 1,
           "quantity": 1,
           "image": "assets/cult_original.png"
         },
