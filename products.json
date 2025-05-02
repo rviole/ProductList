@@ -93,7 +93,7 @@
           "description": "\"Happy Bears\", MAXI",
           "unit": "300 g",
           "sell_price": 1.49,
-          "quantity": 1,
+          "quantity": 0,
           "image": "assets/jelly_happy_bears.png"
         },
         {
@@ -288,7 +288,7 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "quantity": 14,
-          "image": ""
+          "image": "assets/juice_0.2L.png"
         }
       ]
     },
@@ -316,8 +316,8 @@
           "description": "Vanilla Flavor",
           "unit": "1 pcs",
           "sell_price": 0.69,
-          "quantity": 3,
-          "image": ""
+          "quantity": 2,
+          "image": "assets/glazed_curd_vanilla.png"
         }
       ]
     }
