@@ -1,6 +1,14 @@
 import sqlite3
 import json
 import argparse
+import sys
+
+
+with open('discount_ids.txt', 'r') as file:
+    discount_ids = file.read().strip().split("\n")
+    discount_ids = [int(chars) for chars in discount_ids if len(chars.strip())]
+    
+print("Discount will apply on products with ids", discount_ids)
 
 
 def fetch_inventory(db_path):
@@ -11,8 +19,9 @@ def fetch_inventory(db_path):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
-    query = '''
-    SELECT category,
+    query = f'''
+    SELECT id,
+           category,
            name,
            description,
            unit,
@@ -23,6 +32,7 @@ def fetch_inventory(db_path):
     FROM inventory
     WHERE show_on_website
     ORDER BY category
+    
     '''
 
     cursor.execute(query)
@@ -38,13 +48,13 @@ def group_by_category(rows):
     result = {"sections": []}
     section_map = {}
 
-    for category, name, description, unit, sell_price, min_sell_price, quantity, image in rows:
+    for inventory_id, category, name, description, unit, sell_price, min_sell_price, quantity, image in rows:
         product = {
             "name": name,
             "description": description,
             "unit": unit,
             "sell_price": sell_price,
-            "discount_price": min_sell_price,
+            "discount_price": min_sell_price if inventory_id in discount_ids else sell_price,
             "quantity": quantity,
             "image": image or ""
         }
@@ -63,7 +73,7 @@ def group_by_category(rows):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate grouped JSON from inventory DB.")
-    parser.add_argument("db", help="Path to SQLite database file")
+    parser.add_argument("-db", help="Path to SQLite database file", default="../final/instance/database.db")
     parser.add_argument("-o", "--output", default="products.json", help="Output JSON file")
     args = parser.parse_args()
 
