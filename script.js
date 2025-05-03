@@ -35,7 +35,7 @@ function renderNavigation(sections) {
   sections.forEach(section => {
     const sectionId = getSectionId(section.name);
     const li = document.createElement('li');
-    
+
     const a = document.createElement('a');
     a.href = `#${sectionId}`;
     a.textContent = section.name;
@@ -50,14 +50,14 @@ function renderNavigation(sections) {
           top: target.offsetTop - headerHeight,
           behavior: 'smooth'
         });
-        
+
         // Close mobile nav if open
         if (window.innerWidth < 768) {
           document.getElementById('main-nav').classList.remove('active');
         }
       }
     });
-    
+
     li.appendChild(a);
     navList.appendChild(li);
   });
@@ -67,12 +67,12 @@ function renderNavigation(sections) {
 function renderProductCard(product) {
   const card = document.createElement('div');
   card.className = 'product-card';
-  
+
   // Product image or placeholder
   const imageContainer = document.createElement('div');
   const colorClass = getRandomColorClass();
   imageContainer.className = `product-image ${!product.image ? colorClass : ''}`;
-  
+
   if (product.image) {
     const img = document.createElement('img');
     img.src = product.image;
@@ -95,7 +95,7 @@ function renderProductCard(product) {
     placeholder.textContent = product.name.charAt(0).toUpperCase();
     imageContainer.appendChild(placeholder);
   }
-  
+
   // Out of stock indicator
   if (product.quantity <= 0) {
     const outOfStock = document.createElement('div');
@@ -103,66 +103,85 @@ function renderProductCard(product) {
     outOfStock.textContent = 'OUT OF STOCK FOR TODAY';
     imageContainer.appendChild(outOfStock);
   }
-  
+
   // Product details
   const details = document.createElement('div');
   details.className = 'product-details';
-  
+
   const name = document.createElement('h3');
   name.className = 'product-name';
   name.textContent = product.name;
-  
+
   const description = document.createElement('p');
   description.className = 'product-description';
   description.textContent = product.description;
-  
+
+  const quantity = document.createElement('p');
+  quantity.className = `product-description ${product.quantity < 2 ? 'low-stock' : ''}`;
+  quantity.textContent = `In stock: ${product.quantity}`;
+
   const meta = document.createElement('div');
   meta.className = 'product-meta';
-  
+
   const unit = document.createElement('div');
   unit.className = 'product-unit';
   unit.textContent = product.unit;
-  
+
   const price = document.createElement('div');
   price.className = 'product-price';
-  price.textContent = `€${product.sell_price.toFixed(2)}`;
-  
+
+  if (product.discount_price && product.discount_price < product.sell_price) {
+    const originalPrice = document.createElement('span');
+    originalPrice.className = 'original-price';
+    originalPrice.textContent = `€${product.sell_price.toFixed(2)}`;
+
+    const discountedPrice = document.createElement('span');
+    discountedPrice.className = 'discounted-price';
+    discountedPrice.textContent = `€${product.discount_price.toFixed(2)}`;
+
+    price.appendChild(originalPrice);
+    price.appendChild(discountedPrice);
+  } else {
+    price.textContent = `€${product.sell_price.toFixed(2)}`;
+  }
+
   meta.appendChild(unit);
   meta.appendChild(price);
-  
+
   details.appendChild(name);
   details.appendChild(description);
+  details.appendChild(quantity);
   details.appendChild(meta);
-  
+
   card.appendChild(imageContainer);
   card.appendChild(details);
-  
+
   return card;
 }
 
 // Function to render a section
 function renderSection(section) {
   const sectionId = getSectionId(section.name);
-  
+
   const sectionElement = document.createElement('section');
   sectionElement.className = 'section';
   sectionElement.id = sectionId;
-  
+
   const title = document.createElement('h2');
   title.className = 'section-title';
   title.textContent = section.name;
-  
+
   const content = document.createElement('div');
   content.className = 'section-content';
-  
+
   if (section.products.length > 0) {
     const grid = document.createElement('div');
     grid.className = 'product-grid';
-    
+
     section.products.forEach(product => {
       grid.appendChild(renderProductCard(product));
     });
-    
+
     content.appendChild(grid);
   } else {
     const empty = document.createElement('p');
@@ -170,10 +189,10 @@ function renderSection(section) {
     empty.textContent = 'No products available in this section.';
     content.appendChild(empty);
   }
-  
+
   sectionElement.appendChild(title);
   sectionElement.appendChild(content);
-  
+
   return sectionElement;
 }
 
@@ -181,7 +200,7 @@ function renderSection(section) {
 function renderSections(data) {
   const contentElement = document.getElementById('content');
   contentElement.innerHTML = '';
-  
+
   if (!data || !data.sections || data.sections.length === 0) {
     const error = document.createElement('div');
     error.className = 'error';
@@ -189,14 +208,14 @@ function renderSections(data) {
     contentElement.appendChild(error);
     return;
   }
-  
+
   const sectionsContainer = document.createElement('div');
   sectionsContainer.className = 'sections-container';
-  
+
   data.sections.forEach(section => {
     sectionsContainer.appendChild(renderSection(section));
   });
-  
+
   contentElement.appendChild(sectionsContainer);
 }
 
@@ -204,11 +223,11 @@ function renderSections(data) {
 function setupMobileNav() {
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.getElementById('main-nav');
-  
+
   toggle.addEventListener('click', () => {
     nav.classList.toggle('active');
   });
-  
+
   // Close navigation on window resize to desktop
   window.addEventListener('resize', () => {
     if (window.innerWidth >= 768 && nav.classList.contains('active')) {
@@ -220,7 +239,7 @@ function setupMobileNav() {
 // Initialize the application
 async function init() {
   setupMobileNav();
-  
+
   const data = await fetchProducts();
   if (data) {
     renderNavigation(data.sections);
@@ -228,7 +247,7 @@ async function init() {
   } else {
     const contentElement = document.getElementById('content');
     contentElement.innerHTML = '';
-    
+
     const error = document.createElement('div');
     error.className = 'error';
     error.textContent = 'Failed to load products. Please try again later.';
