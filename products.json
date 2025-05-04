@@ -8,8 +8,8 @@
           "description": "Can",
           "unit": "0.33 L",
           "sell_price": 0.99,
-          "discount_price": 0.89,
-          "quantity": 18,
+          "discount_price": 0.79,
+          "quantity": 41,
           "image": "assets/pepsi_can_0.33l.png"
         },
         {
@@ -26,7 +26,7 @@
           "description": "Can",
           "unit": "0.33 L",
           "sell_price": 0.99,
-          "discount_price": 0.89,
+          "discount_price": 0.79,
           "quantity": 1,
           "image": "assets/mirinda_can_0.33l.png"
         },
@@ -36,7 +36,7 @@
           "unit": "1.5 L",
           "sell_price": 1.99,
           "discount_price": 1.79,
-          "quantity": 14,
+          "quantity": 13,
           "image": "assets/pepsi_bottle_1.5l.png"
         },
         {
@@ -108,7 +108,7 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "discount_price": 0.59,
-          "quantity": 9,
+          "quantity": 19,
           "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
         },
         {
@@ -116,7 +116,7 @@
           "description": "Zero, Can",
           "unit": "0.33",
           "sell_price": 0.99,
-          "discount_price": 0.89,
+          "discount_price": 0.79,
           "quantity": 2,
           "image": "assets/pepsi_zero_can_0.33l.png"
         },
@@ -128,6 +128,15 @@
           "discount_price": 2.29,
           "quantity": 2,
           "image": "assets/juice_multifruit_elmenhorster_lt_2l.png"
+        },
+        {
+          "name": "Juice Tropical",
+          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
+          "unit": "1 pcs",
+          "sell_price": 0.59,
+          "discount_price": 0.59,
+          "quantity": 12,
+          "image": "assets/juice_tropical_pack_with_straw_0.2l.png"
         }
       ]
     },
@@ -151,6 +160,24 @@
           "discount_price": 0.69,
           "quantity": 2,
           "image": "assets/noodles_sun_yan_beef_flavor_60g.png"
+        },
+        {
+          "name": "Mini Pizza \"Margarita\"",
+          "description": "Microwavable, 300 g",
+          "unit": "1 box",
+          "sell_price": 2.49,
+          "discount_price": 2.49,
+          "quantity": 1,
+          "image": ""
+        },
+        {
+          "name": "Mini Pizza \"Kebab Meat\"",
+          "description": "Microwavable, Medium Spicy, 340 g",
+          "unit": "1 box",
+          "sell_price": 3.49,
+          "discount_price": 3.49,
+          "quantity": 1,
+          "image": ""
         }
       ]
     },
@@ -326,7 +353,7 @@
           "unit": "1 pcs",
           "sell_price": 0.49,
           "discount_price": 0.49,
-          "quantity": 3,
+          "quantity": 2,
           "image": "assets/roger_chocolate_waffles_coconut_flavor_40g.png"
         },
         {
@@ -353,7 +380,7 @@
           "unit": "1 pcs",
           "sell_price": 0.79,
           "discount_price": 0.79,
-          "quantity": 2,
+          "quantity": 1,
           "image": "assets/7days_croissant_cocoa_and_vanilla_flavor_1pcs.webp"
         },
         {
@@ -362,7 +389,7 @@
           "unit": "1 pcs",
           "sell_price": 0.79,
           "discount_price": 0.79,
-          "quantity": 4,
+          "quantity": 7,
           "image": "assets/7days_croissant_cream_and_cookies_flavor_1pcs.png"
         },
         {
@@ -398,7 +425,7 @@
           "unit": "300 g",
           "sell_price": 1.49,
           "discount_price": 1.49,
-          "quantity": 4,
+          "quantity": 3,
           "image": "assets/jelly_sweet_corner_happy_bears_300g.png"
         }
       ]
