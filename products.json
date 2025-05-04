@@ -13,15 +13,6 @@
           "image": "assets/pepsi_can_0.33l.png"
         },
         {
-          "name": "Pepsi",
-          "description": "Bottle, MAX Zero",
-          "unit": "1.5 L",
-          "sell_price": 1.99,
-          "discount_price": 1.99,
-          "quantity": 0,
-          "image": "assets/pepsi_max_zero_bottle_1.5l.png"
-        },
-        {
           "name": "Mirinda",
           "description": "Can",
           "unit": "0.33 L",
@@ -38,15 +29,6 @@
           "discount_price": 1.79,
           "quantity": 13,
           "image": "assets/pepsi_bottle_1.5l.png"
-        },
-        {
-          "name": "CULT",
-          "description": "JUICY OCEAN Flavor, Energy Drink",
-          "unit": "0.5 L",
-          "sell_price": 1.19,
-          "discount_price": 1.19,
-          "quantity": 0,
-          "image": "assets/cult_juicy_ocean_flavor_0.5l.png"
         },
         {
           "name": "CULT",
