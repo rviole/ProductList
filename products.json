@@ -108,7 +108,7 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "discount_price": 0.59,
-          "quantity": 19,
+          "quantity": 12,
           "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
         },
         {
@@ -135,7 +135,7 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "discount_price": 0.59,
-          "quantity": 12,
+          "quantity": 5,
           "image": "assets/juice_tropical_pack_with_straw_0.2l.png"
         }
       ]
@@ -190,7 +190,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 1.99,
-          "quantity": 3,
+          "quantity": 2,
           "image": "assets/chips_lays_fromage_flavor_200g.png"
         },
         {
@@ -285,7 +285,7 @@
           "unit": "1 pcs",
           "sell_price": 0.69,
           "discount_price": 0.59,
-          "quantity": 3,
+          "quantity": 1,
           "image": "assets/glazed_curds_vanilla_flavor_1pcs.png"
         },
         {
@@ -294,7 +294,7 @@
           "unit": "1 pcs",
           "sell_price": 0.69,
           "discount_price": 0.69,
-          "quantity": 2,
+          "quantity": 0,
           "image": ""
         },
         {
