@@ -171,7 +171,7 @@
           "description": "Fromage Flavor, MEGA pack",
           "unit": "200 g",
           "sell_price": 2.49,
-          "discount_price": 1.99,
+          "discount_price": 2.19,
           "quantity": 2,
           "image": "assets/chips_lays_fromage_flavor_200g.png"
         },
@@ -180,7 +180,7 @@
           "description": "Cheese Flavor, MEGA pack",
           "unit": "200 g",
           "sell_price": 2.49,
-          "discount_price": 1.99,
+          "discount_price": 2.19,
           "quantity": 4,
           "image": "assets/chips_lays_cheese_flavor_200g.webp"
         },
@@ -189,7 +189,7 @@
           "description": "Onion Flavor, MEGA pack",
           "unit": "200 g",
           "sell_price": 2.49,
-          "discount_price": 1.99,
+          "discount_price": 2.19,
           "quantity": 4,
           "image": "assets/chips_lays_onion_flavor_200g.png"
         },
@@ -225,7 +225,7 @@
           "description": "Tomato Flavor, MEGA pack",
           "unit": "200 g",
           "sell_price": 2.49,
-          "discount_price": 1.99,
+          "discount_price": 2.19,
           "quantity": 2,
           "image": "assets/chips_lays_tomato_flavor_200g.png"
         },
@@ -275,7 +275,7 @@
           "description": "Chocolate Flavor",
           "unit": "1 pcs",
           "sell_price": 0.69,
-          "discount_price": 0.69,
+          "discount_price": 0.59,
           "quantity": 0,
           "image": ""
         },
@@ -396,8 +396,8 @@
           "name": "Jelly \"Sweet Corner\"",
           "description": "Cola Flavor, MAXI",
           "unit": "300 g",
-          "sell_price": 1.79,
-          "discount_price": 1.79,
+          "sell_price": 1.89,
+          "discount_price": 1.69,
           "quantity": 1,
           "image": "assets/jelly_sweet_corner_cola_flavor_300g.png"
         },
@@ -405,7 +405,7 @@
           "name": "Jelly \"Sweet Corner\" ",
           "description": "\"Happy Bears\", MAXI",
           "unit": "300 g",
-          "sell_price": 1.49,
+          "sell_price": 1.69,
           "discount_price": 1.49,
           "quantity": 3,
           "image": "assets/jelly_sweet_corner_happy_bears_300g.png"
