@@ -90,7 +90,7 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "discount_price": 0.59,
-          "quantity": 12,
+          "quantity": 11,
           "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
         },
         {
@@ -140,7 +140,7 @@
           "unit": "1 pack",
           "sell_price": 0.69,
           "discount_price": 0.69,
-          "quantity": 2,
+          "quantity": 1,
           "image": "assets/noodles_sun_yan_beef_flavor_60g.png"
         },
         {
@@ -181,7 +181,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 4,
+          "quantity": 3,
           "image": "assets/chips_lays_cheese_flavor_200g.webp"
         },
         {
@@ -190,7 +190,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 4,
+          "quantity": 2,
           "image": "assets/chips_lays_onion_flavor_200g.png"
         },
         {
@@ -226,7 +226,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 1,
+          "quantity": 0,
           "image": "assets/chips_lays_tomato_flavor_200g.png"
         },
         {
@@ -317,7 +317,7 @@
           "unit": "1 box",
           "sell_price": 0.99,
           "discount_price": 0.99,
-          "quantity": 2,
+          "quantity": 1,
           "image": ""
         },
         {
