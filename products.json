@@ -1,20 +1,6 @@
 {
   "sections": [
     {
-      "name": "",
-      "products": [
-        {
-          "name": "Juice Multifruit",
-          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
-          "unit": "1 pcs",
-          "sell_price": 0.59,
-          "discount_price": 0.59,
-          "quantity": 6,
-          "image": ""
-        }
-      ]
-    },
-    {
       "name": "Drinks",
       "products": [
         {
@@ -99,6 +85,15 @@
           "image": ""
         },
         {
+          "name": "Juice Multifruit",
+          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
+          "unit": "1 pcs",
+          "sell_price": 0.59,
+          "discount_price": 0.59,
+          "quantity": 6,
+          "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
+        },
+        {
           "name": "Pepsi",
           "description": "Zero, Can",
           "unit": "0.33",
@@ -130,15 +125,6 @@
     {
       "name": "Lunch",
       "products": [
-        {
-          "name": "Sandwich Žalgirio",
-          "description": "Chicken Kebab, cucumber & cheese, 255 g",
-          "unit": "1 pack",
-          "sell_price": 2.99,
-          "discount_price": 2.99,
-          "quantity": 0,
-          "image": "assets/sandwich_zalgirio_chicken_kebab_cucumber_and_cheese_255g.png"
-        },
         {
           "name": "Noodles SUN YAN ",
           "description": "Beef Flavor, 60 g",
@@ -274,15 +260,6 @@
           "discount_price": 0.59,
           "quantity": 1,
           "image": "assets/glazed_curds_vanilla_flavor_1pcs.png"
-        },
-        {
-          "name": "Glazed Curds",
-          "description": "Chocolate Flavor",
-          "unit": "1 pcs",
-          "sell_price": 0.69,
-          "discount_price": 0.59,
-          "quantity": 0,
-          "image": ""
         },
         {
           "name": "Yogurt",
