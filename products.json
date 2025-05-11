@@ -1,6 +1,65 @@
 {
   "sections": [
     {
+      "name": "",
+      "products": [
+        {
+          "name": "Pepsi",
+          "description": "Bottle, MAX Zero",
+          "unit": "1.5 L",
+          "sell_price": 1.99,
+          "discount_price": 1.99,
+          "quantity": 2,
+          "image": ""
+        },
+        {
+          "name": "Chips Pringles",
+          "description": "ORIGINAL, XXL",
+          "unit": "185 g",
+          "sell_price": 2.49,
+          "discount_price": 2.49,
+          "quantity": 2,
+          "image": ""
+        },
+        {
+          "name": "Chips Doritos",
+          "description": "Flaming Hot Flavor",
+          "unit": "75 g",
+          "sell_price": 1.79,
+          "discount_price": 1.59,
+          "quantity": 2,
+          "image": ""
+        },
+        {
+          "name": "Glazed Curds",
+          "description": "Vanilla Flavor",
+          "unit": "1 pcs",
+          "sell_price": 0.69,
+          "discount_price": 0.59,
+          "quantity": 4,
+          "image": ""
+        },
+        {
+          "name": "Glazed Curds",
+          "description": "Chocolate Flavor",
+          "unit": "1 pcs",
+          "sell_price": 0.65,
+          "discount_price": 0.59,
+          "quantity": 3,
+          "image": ""
+        },
+        {
+          "name": "Juice Tropical",
+          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
+          "unit": "1 pcs",
+          "sell_price": 0.59,
+          "discount_price": 0.59,
+          "quantity": 25,
+          "image": ""
+        }
+      ]
+    },
+    {
       "name": "Drinks",
       "products": [
         {
@@ -9,7 +68,7 @@
           "unit": "0.33 L",
           "sell_price": 0.99,
           "discount_price": 0.79,
-          "quantity": 41,
+          "quantity": 35,
           "image": "assets/pepsi_can_0.33l.png"
         },
         {
@@ -27,7 +86,7 @@
           "unit": "1.5 L",
           "sell_price": 1.99,
           "discount_price": 1.79,
-          "quantity": 11,
+          "quantity": 10,
           "image": "assets/pepsi_bottle_1.5l.png"
         },
         {
@@ -36,7 +95,7 @@
           "unit": "0.5 L",
           "sell_price": 1.19,
           "discount_price": 1.19,
-          "quantity": 1,
+          "quantity": 0,
           "image": "assets/cult_original_flavor_0.5l.png"
         },
         {
@@ -72,7 +131,7 @@
           "unit": "1 L",
           "sell_price": 1.49,
           "discount_price": 1.49,
-          "quantity": 1,
+          "quantity": 0,
           "image": ""
         },
         {
@@ -110,15 +169,6 @@
           "discount_price": 2.29,
           "quantity": 1,
           "image": "assets/juice_multifruit_elmenhorster_lt_2l.png"
-        },
-        {
-          "name": "Juice Tropical",
-          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
-          "unit": "1 pcs",
-          "sell_price": 0.59,
-          "discount_price": 0.59,
-          "quantity": 2,
-          "image": "assets/juice_tropical_pack_with_straw_0.2l.png"
         }
       ]
     },
@@ -131,7 +181,7 @@
           "unit": "1 pack",
           "sell_price": 0.69,
           "discount_price": 0.69,
-          "quantity": 1,
+          "quantity": 0,
           "image": "assets/noodles_sun_yan_beef_flavor_60g.png"
         },
         {
@@ -140,7 +190,7 @@
           "unit": "1 box",
           "sell_price": 2.49,
           "discount_price": 2.49,
-          "quantity": 1,
+          "quantity": 0,
           "image": ""
         },
         {
@@ -163,7 +213,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 1,
+          "quantity": 0,
           "image": "assets/chips_lays_fromage_flavor_200g.png"
         },
         {
@@ -172,7 +222,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 3,
+          "quantity": 2,
           "image": "assets/chips_lays_cheese_flavor_200g.webp"
         },
         {
@@ -186,30 +236,12 @@
         },
         {
           "name": "Chips Pringles",
-          "description": "ORIGINAL, XXL",
-          "unit": "185 g",
-          "sell_price": 2.49,
-          "discount_price": 2.49,
-          "quantity": 1,
-          "image": "assets/chips_pringles_original_185g.png"
-        },
-        {
-          "name": "Chips Pringles",
           "description": "Sour Cream & Onion, XXL",
           "unit": "185 g",
           "sell_price": 2.49,
           "discount_price": 2.49,
           "quantity": 0,
           "image": "assets/chips_pringles_sour_cream_and_onion_185g.png"
-        },
-        {
-          "name": "Chips Doritos",
-          "description": "Flaming Hot Flavor",
-          "unit": "75 g",
-          "sell_price": 1.79,
-          "discount_price": 1.59,
-          "quantity": 0,
-          "image": "assets/chips_doritos_flaming_hot_75g.png"
         },
         {
           "name": "Chips LAYS",
@@ -228,6 +260,33 @@
           "discount_price": 0.49,
           "quantity": 3,
           "image": ""
+        },
+        {
+          "name": "Crackers",
+          "description": "Cheese Flavor",
+          "unit": "1 pack",
+          "sell_price": 0.99,
+          "discount_price": 0.99,
+          "quantity": 1,
+          "image": ""
+        },
+        {
+          "name": "Crackers",
+          "description": "Sour cream & Onion Flavor",
+          "unit": "1 pack",
+          "sell_price": 0.99,
+          "discount_price": 0.99,
+          "quantity": 1,
+          "image": ""
+        },
+        {
+          "name": "Salted Nuts",
+          "description": "Cheese Flavor",
+          "unit": "200 g",
+          "sell_price": 1.19,
+          "discount_price": 1.19,
+          "quantity": 1,
+          "image": ""
         }
       ]
     },
@@ -240,7 +299,7 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "discount_price": 0.59,
-          "quantity": 2,
+          "quantity": 0,
           "image": ""
         },
         {
@@ -249,17 +308,8 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "discount_price": 0.59,
-          "quantity": 2,
+          "quantity": 0,
           "image": ""
-        },
-        {
-          "name": "Glazed Curds",
-          "description": "Vanilla Flavor",
-          "unit": "1 pcs",
-          "sell_price": 0.69,
-          "discount_price": 0.59,
-          "quantity": 1,
-          "image": "assets/glazed_curds_vanilla_flavor_1pcs.png"
         },
         {
           "name": "Yogurt",
@@ -299,7 +349,7 @@
           "unit": "1 box",
           "sell_price": 0.99,
           "discount_price": 0.99,
-          "quantity": 1,
+          "quantity": 0,
           "image": ""
         },
         {
@@ -308,7 +358,7 @@
           "unit": "1 pcs",
           "sell_price": 0.49,
           "discount_price": 0.49,
-          "quantity": 3,
+          "quantity": 2,
           "image": "assets/roger_chocolate_waffles_nut_flavor_40g.png"
         },
         {
@@ -317,7 +367,7 @@
           "unit": "1 pcs",
           "sell_price": 0.49,
           "discount_price": 0.49,
-          "quantity": 2,
+          "quantity": 1,
           "image": "assets/roger_chocolate_waffles_coconut_flavor_40g.png"
         },
         {
@@ -326,7 +376,7 @@
           "unit": "1 box",
           "sell_price": 0.99,
           "discount_price": 0.99,
-          "quantity": 2,
+          "quantity": 1,
           "image": ""
         },
         {
@@ -373,6 +423,15 @@
           "discount_price": 1.49,
           "quantity": 3,
           "image": "assets/jelly_sweet_corner_happy_bears_300g.png"
+        },
+        {
+          "name": "Chocolate Bar \"Schogetten\"",
+          "description": "White chocolate, Almonds, Caramel",
+          "unit": "1 pcs",
+          "sell_price": 1.49,
+          "discount_price": 1.49,
+          "quantity": 1,
+          "image": ""
         }
       ]
     }
