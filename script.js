@@ -150,7 +150,7 @@ function renderProductCard(product) {
 
   details.appendChild(name);
   details.appendChild(description);
-  details.appendChild(quantity);
+  // details.appendChild(quantity);
   details.appendChild(meta);
 
   card.appendChild(imageContainer);

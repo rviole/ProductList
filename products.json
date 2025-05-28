@@ -7,10 +7,19 @@
           "name": "Pepsi",
           "description": "Can",
           "unit": "0.33 L",
-          "sell_price": 0.99,
+          "sell_price": 0.79,
           "discount_price": 0.79,
           "quantity": 34,
           "image": "assets/pepsi_can_0.33l.png"
+        },
+        {
+          "name": "Pepsi",
+          "description": "Zero, Can",
+          "unit": "0.33",
+          "sell_price": 0.79,
+          "discount_price": 0.79,
+          "quantity": 1,
+          "image": "assets/pepsi_zero_can_0.33l.png"
         },
         {
           "name": "Pepsi",
@@ -18,44 +27,17 @@
           "unit": "1.5 L",
           "sell_price": 1.99,
           "discount_price": 1.99,
-          "quantity": 2,
-          "image": ""
-        },
-        {
-          "name": "Mirinda",
-          "description": "Can",
-          "unit": "0.33 L",
-          "sell_price": 0.99,
-          "discount_price": 0.79,
-          "quantity": 1,
-          "image": "assets/mirinda_can_0.33l.png"
+          "quantity": 0,
+          "image": "assets/pepsi_max_zero_bottle_1.5l.png"
         },
         {
           "name": "Pepsi",
           "description": "Bottle",
           "unit": "1.5 L",
           "sell_price": 1.99,
-          "discount_price": 1.79,
-          "quantity": 8,
-          "image": "assets/pepsi_bottle_1.5l.png"
-        },
-        {
-          "name": "CULT",
-          "description": "Original Flavor, Energy Drink",
-          "unit": "0.5 L",
-          "sell_price": 1.19,
-          "discount_price": 1.19,
+          "discount_price": 1.99,
           "quantity": 0,
-          "image": "assets/cult_original_flavor_0.5l.png"
-        },
-        {
-          "name": "Mirinda",
-          "description": "Bottle",
-          "unit": "0.5 L",
-          "sell_price": 1.19,
-          "discount_price": 0.99,
-          "quantity": 1,
-          "image": "assets/mirinda_bottle_0.5l.png"
+          "image": "assets/pepsi_bottle_1.5l.png"
         },
         {
           "name": "Red Bull",
@@ -63,71 +45,44 @@
           "unit": "0.25 L",
           "sell_price": 1.49,
           "discount_price": 1.49,
-          "quantity": 4,
+          "quantity": 0,
           "image": "assets/red_bull_original_0.25l.png"
         },
         {
           "name": "Pepsi",
           "description": "Bottle",
-          "unit": "0.5 L",
-          "sell_price": 1.19,
-          "discount_price": 0.99,
-          "quantity": 2,
+          "unit": "1 L",
+          "sell_price": 1.50,
+          "discount_price": 1.29,
+          "quantity": 1,
           "image": "assets/pepsi_bottle_0.5l.jpeg"
         },
         {
-          "name": "Juice Orange",
-          "description": "Brand \"Solevita\" 100%",
-          "unit": "1 L",
-          "sell_price": 1.49,
-          "discount_price": 1.49,
-          "quantity": 0,
-          "image": ""
-        },
-        {
-          "name": "Juice Apple ",
-          "description": "Brand \"Solevita\" 100%",
-          "unit": "1 L",
-          "sell_price": 1.49,
-          "discount_price": 1.49,
-          "quantity": 0,
-          "image": ""
+          "name": "Pepsi",
+          "description": "Bottle",
+          "unit": "0.5 L",
+          "sell_price": 1.20,
+          "discount_price": 0.99,
+          "quantity": 1,
+          "image": "assets/pepsi_bottle_0.5l.jpeg"
         },
         {
           "name": "Juice Multifruit",
           "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
           "unit": "1 pcs",
-          "sell_price": 0.59,
+          "sell_price": 0.69,
           "discount_price": 0.59,
-          "quantity": 5,
-          "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
-        },
-        {
-          "name": "Pepsi",
-          "description": "Zero, Can",
-          "unit": "0.33",
-          "sell_price": 0.99,
-          "discount_price": 0.79,
-          "quantity": 1,
-          "image": "assets/pepsi_zero_can_0.33l.png"
-        },
-        {
-          "name": "Juice Multifruit",
-          "description": "Brand \"Elmenhorster LT\"",
-          "unit": "2 L",
-          "sell_price": 2.49,
-          "discount_price": 2.29,
           "quantity": 0,
-          "image": "assets/juice_multifruit_elmenhorster_lt_2l.png"
+          "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
         },
         {
           "name": "Juice Tropical",
           "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
           "unit": "1 pcs",
-          "sell_price": 0.59,
+          "sell_price": 0.69,
           "discount_price": 0.59,
           "quantity": 21,
-          "image": ""
+          "image": "assets/juice_tropical_pack_with_straw_0.2l.png"
         }
       ]
     },
@@ -151,15 +106,6 @@
           "discount_price": 2.49,
           "quantity": 0,
           "image": ""
-        },
-        {
-          "name": "Mini Pizza \"Kebab Meat\"",
-          "description": "Microwavable, Medium Spicy, 340 g",
-          "unit": "1 box",
-          "sell_price": 3.49,
-          "discount_price": 3.49,
-          "quantity": 0,
-          "image": ""
         }
       ]
     },
@@ -173,7 +119,7 @@
           "sell_price": 2.49,
           "discount_price": 2.19,
           "quantity": 3,
-          "image": ""
+          "image": "assets/chips_lays_fromage_flavor_200g.png"
         },
         {
           "name": "Chips LAYS",
@@ -181,7 +127,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 2,
+          "quantity": 4,
           "image": "assets/chips_lays_cheese_flavor_200g.webp"
         },
         {
@@ -190,7 +136,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 1,
+          "quantity": 4,
           "image": "assets/chips_lays_onion_flavor_200g.png"
         },
         {
@@ -199,8 +145,8 @@
           "unit": "185 g",
           "sell_price": 2.49,
           "discount_price": 2.49,
-          "quantity": 1,
-          "image": ""
+          "quantity": 4,
+          "image": "assets/chips_pringles_original_185g.png"
         },
         {
           "name": "Chips Pringles",
@@ -208,8 +154,8 @@
           "unit": "185 g",
           "sell_price": 2.49,
           "discount_price": 2.49,
-          "quantity": 1,
-          "image": ""
+          "quantity": 4,
+          "image": "assets/chips_pringles_sour_cream_and_onion_185g.png"
         },
         {
           "name": "Chips Doritos",
@@ -218,7 +164,7 @@
           "sell_price": 1.79,
           "discount_price": 1.59,
           "quantity": 2,
-          "image": ""
+          "image": "assets/chips_doritos_flaming_hot_75g.png"
         },
         {
           "name": "Chips LAYS",
@@ -226,7 +172,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 0,
+          "quantity": 2,
           "image": "assets/chips_lays_tomato_flavor_200g.png"
         },
         {
@@ -236,33 +182,6 @@
           "sell_price": 0.49,
           "discount_price": 0.49,
           "quantity": 2,
-          "image": ""
-        },
-        {
-          "name": "Crackers",
-          "description": "Cheese Flavor",
-          "unit": "1 pack",
-          "sell_price": 0.99,
-          "discount_price": 0.99,
-          "quantity": 1,
-          "image": ""
-        },
-        {
-          "name": "Crackers",
-          "description": "Sour cream & Onion Flavor",
-          "unit": "1 pack",
-          "sell_price": 0.99,
-          "discount_price": 0.99,
-          "quantity": 1,
-          "image": ""
-        },
-        {
-          "name": "Salted Nuts",
-          "description": "Cheese Flavor",
-          "unit": "200 g",
-          "sell_price": 1.19,
-          "discount_price": 1.19,
-          "quantity": 1,
           "image": ""
         }
       ]
@@ -277,7 +196,7 @@
           "sell_price": 0.59,
           "discount_price": 0.59,
           "quantity": 2,
-          "image": ""
+          "image": "assets/icecream_strawberry.png"
         },
         {
           "name": "Ice Cream",
@@ -286,7 +205,7 @@
           "sell_price": 0.59,
           "discount_price": 0.59,
           "quantity": 2,
-          "image": ""
+          "image": "assets/icecream_chocolate.png"
         },
         {
           "name": "Glazed Curds",
@@ -295,7 +214,7 @@
           "sell_price": 0.69,
           "discount_price": 0.59,
           "quantity": 4,
-          "image": ""
+          "image": "assets/glazed_curds_vanilla_flavor_1pcs.png"
         },
         {
           "name": "Glazed Curds",
@@ -303,8 +222,8 @@
           "unit": "1 pcs",
           "sell_price": 0.65,
           "discount_price": 0.59,
-          "quantity": 3,
-          "image": ""
+          "quantity": 0,
+          "image": "assets/glazed_curds_chocolate_flavor_1pcs.png"
         },
         {
           "name": "Yogurt",
@@ -312,7 +231,7 @@
           "unit": "1 pack",
           "sell_price": 0.69,
           "discount_price": 0.69,
-          "quantity": 2,
+          "quantity": 0,
           "image": ""
         }
       ]
@@ -320,15 +239,6 @@
     {
       "name": "Sweets",
       "products": [
-        {
-          "name": "Milka OREO",
-          "description": "Chocolate Bar, 100 g",
-          "unit": "1 pcs",
-          "sell_price": 2.99,
-          "discount_price": 2.99,
-          "quantity": 0,
-          "image": "assets/milka_oreo_chocolate_bar_100g.webp"
-        },
         {
           "name": "Jelly \"Haribo\"",
           "description": "GoldBears",
@@ -339,22 +249,22 @@
           "image": "assets/jelly_haribo_goldbears_100g.webp"
         },
         {
-          "name": "SoftCakes Biscuits",
-          "description": "Strawberry Flavor",
-          "unit": "1 box",
-          "sell_price": 0.99,
-          "discount_price": 0.99,
+          "name": "Jelly \"Haribo\"",
+          "description": "Harry Poter",
+          "unit": "100 g",
+          "sell_price": 1.99,
+          "discount_price": 1.59,
           "quantity": 2,
-          "image": ""
+          "image": "assets/jelly_haribo_harry_poter_100g.png"
         },
         {
-          "name": "ROGER Chocolate Waffles",
-          "description": "Nut Flavor, 40 g",
-          "unit": "1 pcs",
-          "sell_price": 0.49,
-          "discount_price": 0.49,
-          "quantity": 2,
-          "image": "assets/roger_chocolate_waffles_nut_flavor_40g.png"
+          "name": "Jelly \"Sweet Corner\" ",
+          "description": "\"Happy Bears\", MAXI",
+          "unit": "300 g",
+          "sell_price": 1.69,
+          "discount_price": 1.49,
+          "quantity": 0,
+          "image": "assets/jelly_sweet_corner_happy_bears_300g.png"
         },
         {
           "name": "ROGER Chocolate Waffles",
@@ -363,34 +273,25 @@
           "sell_price": 0.49,
           "discount_price": 0.49,
           "quantity": 2,
-          "image": ""
+          "image": "assets/roger_chocolate_waffles_coconut_flavor_40g.png"
         },
         {
           "name": "SoftCakes Biscuits",
-          "description": "Orange Flavor",
+          "description": "Strawberry Flavor",
           "unit": "1 box",
           "sell_price": 0.99,
           "discount_price": 0.99,
-          "quantity": 1,
-          "image": ""
+          "quantity": 2,
+          "image": "assets/softcakes_strawberry.png"
         },
         {
           "name": "7 Days Croissant",
-          "description": "Cream & Cookies Flavor",
+          "description": "Cacao",
           "unit": "1 pcs",
-          "sell_price": 0.79,
-          "discount_price": 0.79,
-          "quantity": 0,
+          "sell_price": 1.20,
+          "discount_price": 1.09,
+          "quantity": 2,
           "image": "assets/7days_croissant_cream_and_cookies_flavor_1pcs.png"
-        },
-        {
-          "name": "SoftCakes Biscuits",
-          "description": "Cherry Flavor",
-          "unit": "1 box",
-          "sell_price": 0.99,
-          "discount_price": 0.99,
-          "quantity": 1,
-          "image": ""
         },
         {
           "name": "KitKat",
@@ -398,35 +299,8 @@
           "unit": "1 pcs",
           "sell_price": 0.69,
           "discount_price": 0.69,
-          "quantity": 3,
+          "quantity": 0,
           "image": "assets/kitkat_chocolate_40g.png"
-        },
-        {
-          "name": "Jelly \"Sweet Corner\"",
-          "description": "Cola Flavor, MAXI",
-          "unit": "300 g",
-          "sell_price": 1.89,
-          "discount_price": 1.69,
-          "quantity": 1,
-          "image": "assets/jelly_sweet_corner_cola_flavor_300g.png"
-        },
-        {
-          "name": "Jelly \"Sweet Corner\" ",
-          "description": "\"Happy Bears\", MAXI",
-          "unit": "300 g",
-          "sell_price": 1.69,
-          "discount_price": 1.49,
-          "quantity": 2,
-          "image": "assets/jelly_sweet_corner_happy_bears_300g.png"
-        },
-        {
-          "name": "Chocolate Bar \"Schogetten\"",
-          "description": "White chocolate, Almonds, Caramel",
-          "unit": "1 pcs",
-          "sell_price": 1.49,
-          "discount_price": 1.49,
-          "quantity": 1,
-          "image": ""
         }
       ]
     }

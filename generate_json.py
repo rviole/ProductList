@@ -54,7 +54,7 @@ def group_by_category(rows):
             "description": description,
             "unit": unit,
             "sell_price": sell_price,
-            "discount_price": min_sell_price if inventory_id in discount_ids else sell_price,
+            "discount_price": sell_price,
             "quantity": quantity,
             "image": image or ""
         }
