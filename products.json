@@ -23,6 +23,42 @@
         },
         {
           "name": "Pepsi",
+          "description": "Bottle",
+          "unit": "1 L",
+          "sell_price": 1.50,
+          "discount_price": 1.29,
+          "quantity": 1,
+          "image": "assets/pepsi_bottle_0.5l.jpeg"
+        },
+        {
+          "name": "Pepsi",
+          "description": "Bottle",
+          "unit": "0.5 L",
+          "sell_price": 1.20,
+          "discount_price": 0.99,
+          "quantity": 1,
+          "image": "assets/pepsi_bottle_0.5l.jpeg"
+        },
+        {
+          "name": "Juice Tropical",
+          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
+          "unit": "1 pcs",
+          "sell_price": 0.69,
+          "discount_price": 0.59,
+          "quantity": 21,
+          "image": "assets/juice_tropical_pack_with_straw_0.2l.png"
+        },
+        {
+          "name": "Juice Multifruit",
+          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
+          "unit": "1 pcs",
+          "sell_price": 0.69,
+          "discount_price": 0.59,
+          "quantity": 0,
+          "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
+        },
+        {
+          "name": "Pepsi",
           "description": "Bottle, MAX Zero",
           "unit": "1.5 L",
           "sell_price": 1.99,
@@ -47,42 +83,6 @@
           "discount_price": 1.49,
           "quantity": 0,
           "image": "assets/red_bull_original_0.25l.png"
-        },
-        {
-          "name": "Pepsi",
-          "description": "Bottle",
-          "unit": "1 L",
-          "sell_price": 1.50,
-          "discount_price": 1.29,
-          "quantity": 1,
-          "image": "assets/pepsi_bottle_0.5l.jpeg"
-        },
-        {
-          "name": "Pepsi",
-          "description": "Bottle",
-          "unit": "0.5 L",
-          "sell_price": 1.20,
-          "discount_price": 0.99,
-          "quantity": 1,
-          "image": "assets/pepsi_bottle_0.5l.jpeg"
-        },
-        {
-          "name": "Juice Multifruit",
-          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
-          "unit": "1 pcs",
-          "sell_price": 0.69,
-          "discount_price": 0.59,
-          "quantity": 0,
-          "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
-        },
-        {
-          "name": "Juice Tropical",
-          "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
-          "unit": "1 pcs",
-          "sell_price": 0.69,
-          "discount_price": 0.59,
-          "quantity": 21,
-          "image": "assets/juice_tropical_pack_with_straw_0.2l.png"
         }
       ]
     },
