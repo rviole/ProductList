@@ -9,7 +9,7 @@
           "unit": "0.33 L",
           "sell_price": 0.79,
           "discount_price": 0.79,
-          "quantity": 34,
+          "quantity": 0,
           "image": "assets/pepsi_can_0.33l.png"
         },
         {
@@ -127,7 +127,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 4,
+          "quantity": 3,
           "image": "assets/chips_lays_cheese_flavor_200g.webp"
         },
         {
@@ -136,8 +136,17 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 4,
+          "quantity": 3,
           "image": "assets/chips_lays_onion_flavor_200g.png"
+        },
+        {
+          "name": "Chips LAYS",
+          "description": "Tomato Flavor, MEGA pack",
+          "unit": "200 g",
+          "sell_price": 2.49,
+          "discount_price": 2.19,
+          "quantity": 2,
+          "image": "assets/chips_lays_tomato_flavor_200g.png"
         },
         {
           "name": "Chips Pringles",
@@ -163,17 +172,8 @@
           "unit": "75 g",
           "sell_price": 1.79,
           "discount_price": 1.59,
-          "quantity": 2,
+          "quantity": 0,
           "image": "assets/chips_doritos_flaming_hot_75g.png"
-        },
-        {
-          "name": "Chips LAYS",
-          "description": "Tomato Flavor, MEGA pack",
-          "unit": "200 g",
-          "sell_price": 2.49,
-          "discount_price": 2.19,
-          "quantity": 2,
-          "image": "assets/chips_lays_tomato_flavor_200g.png"
         },
         {
           "name": "Sunflower Seeds",
