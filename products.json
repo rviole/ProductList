@@ -9,7 +9,7 @@
           "unit": "0.33 L",
           "sell_price": 0.79,
           "discount_price": 0.79,
-          "quantity": 0,
+          "quantity": 24,
           "image": "assets/pepsi_can_0.33l.png"
         },
         {
@@ -18,8 +18,26 @@
           "unit": "0.33",
           "sell_price": 0.79,
           "discount_price": 0.79,
-          "quantity": 1,
+          "quantity": 5,
           "image": "assets/pepsi_zero_can_0.33l.png"
+        },
+        {
+          "name": "Mirinda",
+          "description": "Can",
+          "unit": "0.33",
+          "sell_price": 0.79,
+          "discount_price": 0.79,
+          "quantity": 5,
+          "image": "assets/mirinda_can_0.33l.png"
+        },
+        {
+          "name": "7 UP",
+          "description": "Can",
+          "unit": "0.33",
+          "sell_price": 0.79,
+          "discount_price": 0.79,
+          "quantity": 5,
+          "image": "assets/7up_0.33l.png"
         },
         {
           "name": "Pepsi",
@@ -104,7 +122,7 @@
           "unit": "1 box",
           "sell_price": 2.49,
           "discount_price": 2.49,
-          "quantity": 0,
+          "quantity": 2,
           "image": ""
         }
       ]
@@ -172,7 +190,7 @@
           "unit": "75 g",
           "sell_price": 1.79,
           "discount_price": 1.59,
-          "quantity": 0,
+          "quantity": 2,
           "image": "assets/chips_doritos_flaming_hot_75g.png"
         },
         {
@@ -263,7 +281,7 @@
           "unit": "300 g",
           "sell_price": 1.69,
           "discount_price": 1.49,
-          "quantity": 0,
+          "quantity": 1,
           "image": "assets/jelly_sweet_corner_happy_bears_300g.png"
         },
         {
