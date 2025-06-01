@@ -42,7 +42,7 @@
           "unit": "0.33",
           "sell_price": 0.79,
           "discount_price": 0.79,
-          "quantity": 5,
+          "quantity": 0,
           "image": "assets/7up_0.33l.png",
           "most_popular": false,
           "new": false
@@ -173,7 +173,7 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 3,
+          "quantity": 0,
           "image": "assets/chips_lays_cheese_flavor_200g.webp",
           "most_popular": false,
           "new": false
@@ -206,7 +206,7 @@
           "unit": "185 g",
           "sell_price": 2.49,
           "discount_price": 2.49,
-          "quantity": 4,
+          "quantity": 0,
           "image": "assets/chips_pringles_original_185g.png",
           "most_popular": false,
           "new": false
@@ -277,7 +277,7 @@
           "unit": "1 pcs",
           "sell_price": 0.69,
           "discount_price": 0.59,
-          "quantity": 4,
+          "quantity": 0,
           "image": "assets/glazed_curds_vanilla_flavor_1pcs.png",
           "most_popular": false,
           "new": false
