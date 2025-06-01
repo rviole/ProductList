@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "name": "Drinks",
+      "name": "\ud83e\udd64 Drinks",
       "products": [
         {
           "name": "Pepsi",
@@ -10,7 +10,9 @@
           "sell_price": 0.79,
           "discount_price": 0.79,
           "quantity": 24,
-          "image": "assets/pepsi_can_0.33l.png"
+          "image": "assets/pepsi_can_0.33l.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Pepsi",
@@ -19,7 +21,9 @@
           "sell_price": 0.79,
           "discount_price": 0.79,
           "quantity": 5,
-          "image": "assets/pepsi_zero_can_0.33l.png"
+          "image": "assets/pepsi_zero_can_0.33l.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Mirinda",
@@ -28,7 +32,9 @@
           "sell_price": 0.79,
           "discount_price": 0.79,
           "quantity": 5,
-          "image": "assets/mirinda_can_0.33l.png"
+          "image": "assets/mirinda_can_0.33l.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "7 UP",
@@ -37,25 +43,31 @@
           "sell_price": 0.79,
           "discount_price": 0.79,
           "quantity": 5,
-          "image": "assets/7up_0.33l.png"
+          "image": "assets/7up_0.33l.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Pepsi",
           "description": "Bottle",
           "unit": "1 L",
-          "sell_price": 1.50,
+          "sell_price": 1.5,
           "discount_price": 1.29,
           "quantity": 1,
-          "image": "assets/pepsi_bottle_0.5l.jpeg"
+          "image": "assets/pepsi_bottle_0.5l.jpeg",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Pepsi",
           "description": "Bottle",
           "unit": "0.5 L",
-          "sell_price": 1.20,
+          "sell_price": 1.2,
           "discount_price": 0.99,
           "quantity": 1,
-          "image": "assets/pepsi_bottle_0.5l.jpeg"
+          "image": "assets/pepsi_bottle_0.5l.jpeg",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Juice Tropical",
@@ -64,7 +76,9 @@
           "sell_price": 0.69,
           "discount_price": 0.59,
           "quantity": 21,
-          "image": "assets/juice_tropical_pack_with_straw_0.2l.png"
+          "image": "assets/juice_tropical_pack_with_straw_0.2l.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Juice Multifruit",
@@ -73,7 +87,9 @@
           "sell_price": 0.69,
           "discount_price": 0.59,
           "quantity": 0,
-          "image": "assets/juice_multifruit_pack_with_straw_0.2l.png"
+          "image": "assets/juice_multifruit_pack_with_straw_0.2l.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Pepsi",
@@ -82,7 +98,9 @@
           "sell_price": 1.99,
           "discount_price": 1.99,
           "quantity": 0,
-          "image": "assets/pepsi_max_zero_bottle_1.5l.png"
+          "image": "assets/pepsi_max_zero_bottle_1.5l.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Pepsi",
@@ -91,7 +109,9 @@
           "sell_price": 1.99,
           "discount_price": 1.99,
           "quantity": 0,
-          "image": "assets/pepsi_bottle_1.5l.png"
+          "image": "assets/pepsi_bottle_1.5l.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Red Bull",
@@ -100,12 +120,14 @@
           "sell_price": 1.49,
           "discount_price": 1.49,
           "quantity": 0,
-          "image": "assets/red_bull_original_0.25l.png"
+          "image": "assets/red_bull_original_0.25l.png",
+          "most_popular": false,
+          "new": false
         }
       ]
     },
     {
-      "name": "Lunch",
+      "name": "🍽️ Lunch",
       "products": [
         {
           "name": "Noodles SUN YAN ",
@@ -114,7 +136,9 @@
           "sell_price": 0.69,
           "discount_price": 0.69,
           "quantity": 0,
-          "image": "assets/noodles_sun_yan_beef_flavor_60g.png"
+          "image": "assets/noodles_sun_yan_beef_flavor_60g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Mini Pizza \"Margarita\"",
@@ -123,12 +147,14 @@
           "sell_price": 2.49,
           "discount_price": 2.49,
           "quantity": 2,
-          "image": "assets/pizza_marghareta.png"
+          "image": "assets/pizza_marghareta.png",
+          "most_popular": false,
+          "new": false
         }
       ]
     },
     {
-      "name": "Snacks",
+      "name": "🍿 Snacks",
       "products": [
         {
           "name": "Chips LAYS",
@@ -137,7 +163,9 @@
           "sell_price": 2.49,
           "discount_price": 2.19,
           "quantity": 3,
-          "image": "assets/chips_lays_fromage_flavor_200g.png"
+          "image": "assets/chips_lays_fromage_flavor_200g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Chips LAYS",
@@ -146,7 +174,9 @@
           "sell_price": 2.49,
           "discount_price": 2.19,
           "quantity": 3,
-          "image": "assets/chips_lays_cheese_flavor_200g.webp"
+          "image": "assets/chips_lays_cheese_flavor_200g.webp",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Chips LAYS",
@@ -155,7 +185,9 @@
           "sell_price": 2.49,
           "discount_price": 2.19,
           "quantity": 3,
-          "image": "assets/chips_lays_onion_flavor_200g.png"
+          "image": "assets/chips_lays_onion_flavor_200g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Chips LAYS",
@@ -164,7 +196,9 @@
           "sell_price": 2.49,
           "discount_price": 2.19,
           "quantity": 2,
-          "image": "assets/chips_lays_tomato_flavor_200g.png"
+          "image": "assets/chips_lays_tomato_flavor_200g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Chips Pringles",
@@ -173,7 +207,9 @@
           "sell_price": 2.49,
           "discount_price": 2.49,
           "quantity": 4,
-          "image": "assets/chips_pringles_original_185g.png"
+          "image": "assets/chips_pringles_original_185g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Chips Pringles",
@@ -182,7 +218,9 @@
           "sell_price": 2.49,
           "discount_price": 2.49,
           "quantity": 4,
-          "image": "assets/chips_pringles_sour_cream_and_onion_185g.png"
+          "image": "assets/chips_pringles_sour_cream_and_onion_185g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Chips Doritos",
@@ -191,7 +229,9 @@
           "sell_price": 1.79,
           "discount_price": 1.59,
           "quantity": 2,
-          "image": "assets/chips_doritos_flaming_hot_75g.png"
+          "image": "assets/chips_doritos_flaming_hot_75g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Sunflower Seeds",
@@ -200,12 +240,14 @@
           "sell_price": 0.49,
           "discount_price": 0.49,
           "quantity": 2,
-          "image": ""
+          "image": "",
+          "most_popular": false,
+          "new": false
         }
       ]
     },
     {
-      "name": "Summer Edition",
+      "name": "🌞 Summer Edition",
       "products": [
         {
           "name": "Ice Cream",
@@ -214,7 +256,9 @@
           "sell_price": 0.59,
           "discount_price": 0.59,
           "quantity": 2,
-          "image": "assets/icecream_strawberry.png"
+          "image": "assets/icecream_strawberry.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Ice Cream",
@@ -223,7 +267,9 @@
           "sell_price": 0.59,
           "discount_price": 0.59,
           "quantity": 2,
-          "image": "assets/icecream_chocolate.png"
+          "image": "assets/icecream_chocolate.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Glazed Curds",
@@ -232,7 +278,9 @@
           "sell_price": 0.69,
           "discount_price": 0.59,
           "quantity": 4,
-          "image": "assets/glazed_curds_vanilla_flavor_1pcs.png"
+          "image": "assets/glazed_curds_vanilla_flavor_1pcs.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Glazed Curds",
@@ -241,7 +289,9 @@
           "sell_price": 0.65,
           "discount_price": 0.59,
           "quantity": 0,
-          "image": "assets/glazed_curds_chocolate_flavor_1pcs.png"
+          "image": "assets/glazed_curds_chocolate_flavor_1pcs.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Yogurt",
@@ -250,12 +300,14 @@
           "sell_price": 0.69,
           "discount_price": 0.69,
           "quantity": 0,
-          "image": ""
+          "image": "",
+          "most_popular": false,
+          "new": false
         }
       ]
     },
     {
-      "name": "Sweets",
+      "name": "🍪 Sweets",
       "products": [
         {
           "name": "Jelly \"Haribo\"",
@@ -264,7 +316,9 @@
           "sell_price": 1.99,
           "discount_price": 1.99,
           "quantity": 2,
-          "image": "assets/jelly_haribo_goldbears_100g.webp"
+          "image": "assets/jelly_haribo_goldbears_100g.webp",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Jelly \"Haribo\"",
@@ -273,7 +327,9 @@
           "sell_price": 1.99,
           "discount_price": 1.59,
           "quantity": 2,
-          "image": "assets/jelly_haribo_harry_poter_100g.png"
+          "image": "assets/jelly_haribo_harry_poter_100g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "Jelly \"Sweet Corner\" ",
@@ -282,7 +338,9 @@
           "sell_price": 1.69,
           "discount_price": 1.49,
           "quantity": 1,
-          "image": "assets/jelly_sweet_corner_happy_bears_300g.png"
+          "image": "assets/jelly_sweet_corner_happy_bears_300g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "ROGER Chocolate Waffles",
@@ -291,7 +349,9 @@
           "sell_price": 0.49,
           "discount_price": 0.49,
           "quantity": 2,
-          "image": "assets/roger_chocolate_waffles_coconut_flavor_40g.png"
+          "image": "assets/roger_chocolate_waffles_coconut_flavor_40g.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "SoftCakes Biscuits",
@@ -300,16 +360,20 @@
           "sell_price": 0.99,
           "discount_price": 0.99,
           "quantity": 2,
-          "image": "assets/softcakes_strawberry.png"
+          "image": "assets/softcakes_strawberry.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "7 Days Croissant",
           "description": "Cacao",
           "unit": "1 pcs",
-          "sell_price": 1.20,
+          "sell_price": 1.2,
           "discount_price": 1.09,
           "quantity": 2,
-          "image": "assets/7days_croissant_cream_and_cookies_flavor_1pcs.png"
+          "image": "assets/7days_croissant_cream_and_cookies_flavor_1pcs.png",
+          "most_popular": false,
+          "new": false
         },
         {
           "name": "KitKat",
@@ -318,7 +382,9 @@
           "sell_price": 0.69,
           "discount_price": 0.69,
           "quantity": 0,
-          "image": "assets/kitkat_chocolate_40g.png"
+          "image": "assets/kitkat_chocolate_40g.png",
+          "most_popular": false,
+          "new": false
         }
       ]
     }
