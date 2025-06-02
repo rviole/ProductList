@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product Catalog</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -36,31 +36,46 @@
 
     <main class="flex-grow">
       <div class="container">
-
         <div class="search-section">
           <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search products..." class="search-input">
+            <input type="text" id="search-input" placeholder="Search products..." class="search-input" />
             <button id="clear-search" class="clear-search">✕</button>
           </div>
         </div>
 
         <div class="section">
-          <div class="section-title">Info</div>
-          <div class="info-section">
+          <div class="section-title collapsible-title" id="info-toggle">
+            Info <span class="toggle-icon">▼</span>
+          </div>
+          <div class="info-section collapsed" id="info-content">
             <h2 class="pitch">We restock most of our supplies daily!</h2>
-            <br>
+            <br />
             <div class="order-steps">
               <div class="step">1. Add items to your cart</div>
               <div class="step">2. Review your order</div>
-              <div class="step">3. Press Order - it will send the order via WhatsApp or Telegram</div>
+              <div class="step">
+                3. Press Order - it will send the order via WhatsApp or
+                Telegram
+              </div>
             </div>
-            <br>
+            <br />
             <div class="contact-info">
-              WhatsApp: <a class='number' href="#">+370 694 35 569</a><br>
-              Telegram: <a class='number' href="https://t.me/dorm_cartel_boss">@dorm_cartel_boss</a>
+              WhatsApp: <a class="number" href="#">+370 694 35 569</a><br />
+              Telegram:
+              <a class="number" href="https://t.me/dorm_cartel_boss">@dorm_cartel_boss</a>
             </div>
             <div class="delivery-highlight">
-                ⚡ <strong>Delivery in 5 minutes | 🕒 Working 24/7</strong> 
+              ⚡ <strong>Delivery in 5 minutes | 🕒 Working 24/7</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" id="hot-deals">
+          <div class="section-title">🔥 Hot</div>
+          <div class="section-content">
+            <div class="loading">
+              <div class="loading-spinner"></div>
+              <p class="loading-text">Loading hot deals...</p>
             </div>
           </div>
         </div>
@@ -120,9 +135,13 @@
           <textarea id="order-text" class="order-textarea" readonly></textarea>
         </div>
         <div class="order-modal-footer">
-          <button id="copy-order" class="btn-secondary">Copy to Clipboard</button>
+          <button id="copy-order" class="btn-secondary">
+            Copy to Clipboard
+          </button>
           <button id="share-whatsapp" class="btn-primary">📱 WhatsApp</button>
-          <button id="share-telegram" class="btn-telegram">✈️ Telegram</button>
+          <button id="share-telegram" class="btn-telegram">
+            ✈️ Telegram
+          </button>
         </div>
       </div>
     </div>

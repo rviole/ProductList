@@ -203,7 +203,7 @@
         {
           "name": "Chips LAYS (Oven Baked)",
           "description": "Grilled Vegetables Flavour (50% less fat)",
-          "unit": "200 g",
+          "unit": "110 g",
           "sell_price": 1.49,
           "discount_price": 1.49,
           "quantity": 8,
@@ -343,7 +343,7 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "discount_price": 0.59,
-          "quantity": 2,
+          "quantity": 0,
           "image": "assets/icecream_chocolate.png",
           "most_popular": true,
           "new": false
@@ -358,7 +358,8 @@
           "image": "assets/icecream_pistachio.png",
           "most_popular": false,
           "new": true
-        },   {
+        },
+        {
           "name": "Ice Cream",
           "description": "Vanilla Flavour",
           "unit": "1 pcs",
