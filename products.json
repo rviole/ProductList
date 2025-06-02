@@ -11,7 +11,7 @@
           "discount_price": 0.79,
           "quantity": 24,
           "image": "assets/pepsi_can_0.33l.png",
-          "most_popular": false,
+          "most_popular": true,
           "new": false
         },
         {
@@ -42,7 +42,7 @@
           "unit": "0.33",
           "sell_price": 0.79,
           "discount_price": 0.79,
-          "quantity": 0,
+          "quantity": 6,
           "image": "assets/7up_0.33l.png",
           "most_popular": false,
           "new": false
@@ -55,8 +55,19 @@
           "discount_price": 1.29,
           "quantity": 1,
           "image": "assets/pepsi_bottle_0.5l.jpeg",
-          "most_popular": false,
+          "most_popular": true,
           "new": false
+        },
+        {
+          "name": "Coca Cola",
+          "description": "Bottle",
+          "unit": "1 L",
+          "sell_price": 1.39,
+          "discount_price": 1.39,
+          "quantity": 1,
+          "image": "",
+          "most_popular": false,
+          "new": true
         },
         {
           "name": "Pepsi",
@@ -148,7 +159,7 @@
           "discount_price": 2.49,
           "quantity": 2,
           "image": "assets/pizza_marghareta.png",
-          "most_popular": false,
+          "most_popular": true,
           "new": false
         }
       ]
