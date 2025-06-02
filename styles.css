@@ -19,7 +19,7 @@
   --dark-theme-color:#005e6c;
   --border-color: #005e6c;
   --add-to-card-btn-color: #005e6c; 
-  --shadow-color: black;
+  --shadow-color: #005e6c;
   --out-of-stock: #ff0f1a;
   
 }
@@ -208,7 +208,7 @@ main {
 }
 
 .search-input:focus {
-  box-shadow: 0 0 0 3px rgba(255, 15, 26, 0.2);
+  box-shadow: 0 0 0 3px var(--shadow-color);
 }
 
 .clear-search {
@@ -703,7 +703,7 @@ main {
 .error {
   text-align: center;
   padding: 3rem 0;
-  color: #ef4444;
+  color: var(--main-theme-color);
 }
 
 /* Empty state */
