@@ -51,8 +51,8 @@
           "name": "Pepsi",
           "description": "Bottle",
           "unit": "1 L",
-          "sell_price": 1.5,
-          "discount_price": 1.29,
+          "sell_price": 1.49,
+          "discount_price": 1.49,
           "quantity": 1,
           "image": "assets/pepsi_bottle_0.5l.jpeg",
           "most_popular": true,
@@ -62,10 +62,10 @@
           "name": "Coca Cola",
           "description": "Bottle",
           "unit": "1 L",
-          "sell_price": 1.39,
-          "discount_price": 1.39,
+          "sell_price": 1.49,
+          "discount_price": 1.29,
           "quantity": 1,
-          "image": "",
+          "image": "assets/coca_cola_1L.png",
           "most_popular": false,
           "new": true
         },
@@ -141,15 +141,26 @@
       "name": "🍽️ Lunch",
       "products": [
         {
-          "name": "Noodles SUN YAN ",
-          "description": "Beef Flavor, 60 g",
-          "unit": "1 pack",
-          "sell_price": 0.69,
-          "discount_price": 0.69,
-          "quantity": 0,
-          "image": "assets/noodles_sun_yan_beef_flavor_60g.png",
+          "name": "Instance Noodles SUN YAN ",
+          "description": "Asian Chicken Flavor, 65 g",
+          "unit": "1 pcs",
+          "sell_price": 1.19,
+          "discount_price": 0.99,
+          "quantity": 3,
+          "image": "assets/SunYan_instant_noodles_asian_chicken.png",
           "most_popular": false,
-          "new": false
+          "new": true
+        },
+        {
+          "name": "Instance Noodles SUN YAN ",
+          "description": "Roasted Beef Flavor, 65 g",
+          "unit": "1 pcs",
+          "sell_price": 1.19,
+          "discount_price": 0.99,
+          "quantity": 3,
+          "image": "assets/SunYan_instant_noodles_roasted_beef_65g.png",
+          "most_popular": false,
+          "new": true
         },
         {
           "name": "Mini Pizza \"Margarita\"",
@@ -161,12 +172,45 @@
           "image": "assets/pizza_marghareta.png",
           "most_popular": true,
           "new": false
+        },
+        {
+          "name": "Mini Pizza \"Mozzarella\"",
+          "description": "Microwavable, 335 g",
+          "unit": "1 box",
+          "sell_price": 2.59,
+          "discount_price": 2.59,
+          "quantity": 2,
+          "image": "assets/pizza_mozzarella.png",
+          "most_popular": false,
+          "new": true
+        },
+        {
+          "name": "Noodles SUN YAN ",
+          "description": "Beef Flavor, 60 g",
+          "unit": "1 pack",
+          "sell_price": 0.69,
+          "discount_price": 0.69,
+          "quantity": 0,
+          "image": "assets/noodles_sun_yan_beef_flavor_60g.png",
+          "most_popular": false,
+          "new": false
         }
       ]
     },
     {
       "name": "🍿 Snacks",
       "products": [
+        {
+          "name": "Chips LAYS (Oven Baked)",
+          "description": "Grilled Vegetables Flavour (50% less fat)",
+          "unit": "200 g",
+          "sell_price": 1.49,
+          "discount_price": 1.49,
+          "quantity": 8,
+          "image": "assets/chips_lays_baked_grilled_vegetables_flavor_110g.png",
+          "most_popular": false,
+          "new": true
+        },
         {
           "name": "Chips LAYS",
           "description": "Fromage Flavor, MEGA pack",
@@ -175,7 +219,7 @@
           "discount_price": 2.19,
           "quantity": 3,
           "image": "assets/chips_lays_fromage_flavor_200g.png",
-          "most_popular": false,
+          "most_popular": true,
           "new": false
         },
         {
@@ -205,11 +249,33 @@
           "description": "Tomato Flavor, MEGA pack",
           "unit": "200 g",
           "sell_price": 2.49,
-          "discount_price": 2.19,
+          "discount_price": 2.49,
           "quantity": 2,
           "image": "assets/chips_lays_tomato_flavor_200g.png",
           "most_popular": false,
           "new": false
+        },
+        {
+          "name": "Chips Pringles",
+          "description": "Paprika",
+          "unit": "165 g",
+          "sell_price": 2.39,
+          "discount_price": 2.19,
+          "quantity": 2,
+          "image": "assets/chips_pringles_paprika_165g.png",
+          "most_popular": false,
+          "new": true
+        },
+        {
+          "name": "Chips Pringles",
+          "description": "Texas BBQ Sauce",
+          "unit": "165 g",
+          "sell_price": 2.39,
+          "discount_price": 2.19,
+          "quantity": 2,
+          "image": "assets/chips_pringles_texas_bbq_sauce_165g.png",
+          "most_popular": false,
+          "new": true
         },
         {
           "name": "Chips Pringles",
@@ -279,8 +345,29 @@
           "discount_price": 0.59,
           "quantity": 2,
           "image": "assets/icecream_chocolate.png",
-          "most_popular": false,
+          "most_popular": true,
           "new": false
+        },
+        {
+          "name": "Ice Cream",
+          "description": "Pistachio Flavour",
+          "unit": "1 pcs",
+          "sell_price": 0.59,
+          "discount_price": 0.59,
+          "quantity": 2,
+          "image": "assets/icecream_pistachio.png",
+          "most_popular": false,
+          "new": true
+        },   {
+          "name": "Ice Cream",
+          "description": "Vanilla Flavour",
+          "unit": "1 pcs",
+          "sell_price": 0.59,
+          "discount_price": 0.59,
+          "quantity": 2,
+          "image": "assets/icecream_vanilla.png",
+          "most_popular": false,
+          "new": true
         },
         {
           "name": "Glazed Curds",
@@ -288,7 +375,7 @@
           "unit": "1 pcs",
           "sell_price": 0.69,
           "discount_price": 0.59,
-          "quantity": 0,
+          "quantity": 5,
           "image": "assets/glazed_curds_vanilla_flavor_1pcs.png",
           "most_popular": false,
           "new": false
@@ -299,7 +386,7 @@
           "unit": "1 pcs",
           "sell_price": 0.65,
           "discount_price": 0.59,
-          "quantity": 0,
+          "quantity": 5,
           "image": "assets/glazed_curds_chocolate_flavor_1pcs.png",
           "most_popular": false,
           "new": false
@@ -392,7 +479,7 @@
           "unit": "1 pcs",
           "sell_price": 0.69,
           "discount_price": 0.69,
-          "quantity": 0,
+          "quantity": 12,
           "image": "assets/kitkat_chocolate_40g.png",
           "most_popular": false,
           "new": false

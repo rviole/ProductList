@@ -24,7 +24,7 @@
     {
         "id": "bundle2",
         "name": "Evening Netflix Bundle",
-        "description": "Pizza \"Margarita\" + Pepsi 1L",
+        "description": "Pizza \"Margarita\" + Coca Cola 1L",
         "bundle_price": 3.49,
         "items": [
             {
@@ -35,11 +35,11 @@
                 "image": "assets/pizza_marghareta.png"
             },
             {
-                "product_name": "Pepsi 1L",
-                "product_description": "(Bottle 1L)",
+                "product_name": "Coca Cola",
+                "product_description": "1L",
                 "quantity": 1,
                 "unit_price": 1.29,
-                "image": "assets/pepsi_bottle_0.5l.jpeg"
+                "image": "assets/coca_cola_1L.png"
             }
         ]
     }
