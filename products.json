@@ -53,9 +53,9 @@
           "unit": "1 L",
           "sell_price": 1.49,
           "discount_price": 1.49,
-          "quantity": 0,
+          "quantity": 18,
           "image": "assets/pepsi_bottle_0.5l.jpeg",
-          "most_popular": false,
+          "most_popular": true,
           "new": false
         },
         {
@@ -228,9 +228,9 @@
           "unit": "200 g",
           "sell_price": 2.49,
           "discount_price": 2.19,
-          "quantity": 0,
+          "quantity": 3,
           "image": "assets/chips_lays_cheese_flavor_200g.webp",
-          "most_popular": false,
+          "most_popular": true,
           "new": false
         },
         {
@@ -283,7 +283,7 @@
           "unit": "185 g",
           "sell_price": 2.49,
           "discount_price": 2.49,
-          "quantity": 0,
+          "quantity": 2,
           "image": "assets/chips_pringles_original_185g.png",
           "most_popular": false,
           "new": false
@@ -294,7 +294,7 @@
           "unit": "185 g",
           "sell_price": 2.49,
           "discount_price": 2.49,
-          "quantity": 0,
+          "quantity": 2,
           "image": "assets/chips_pringles_sour_cream_and_onion_185g.png",
           "most_popular": false,
           "new": false
@@ -343,7 +343,7 @@
           "unit": "1 pcs",
           "sell_price": 0.59,
           "discount_price": 0.59,
-          "quantity": 0,
+          "quantity": 19,
           "image": "assets/icecream_chocolate.png",
           "most_popular": true,
           "new": false
@@ -398,7 +398,7 @@
           "unit": "1 pack",
           "sell_price": 0.69,
           "discount_price": 0.69,
-          "quantity": 0,
+          "quantity": 2,
           "image": "",
           "most_popular": false,
           "new": false
