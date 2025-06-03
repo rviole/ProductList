@@ -309,7 +309,7 @@ main {
 
 .bundle-card {
   flex: 0 0 auto;
-  width: 300px; /* Default for mobile */
+  width: 280px; /* Default for mobile */
 }
 
 @media (min-width: 768px) {
