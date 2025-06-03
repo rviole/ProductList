@@ -69,17 +69,7 @@
           "most_popular": false,
           "new": true
         },
-        {
-          "name": "Pepsi",
-          "description": "Bottle",
-          "unit": "0.5 L",
-          "sell_price": 1.2,
-          "discount_price": 0.99,
-          "quantity": 1,
-          "image": "assets/pepsi_bottle_0.5l.jpeg",
-          "most_popular": false,
-          "new": false
-        },
+
         {
           "name": "Juice Tropical",
           "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
@@ -434,7 +424,7 @@
           "description": "GoldBears",
           "unit": "100 g",
           "sell_price": 1.99,
-          "discount_price": 1.99,
+          "discount_price": 1.49,
           "quantity": 2,
           "image": "assets/jelly_haribo_goldbears_100g.webp",
           "most_popular": false,
