@@ -282,8 +282,6 @@ function renderBundles(bundles) {
   title.className = 'section-title';
   title.textContent = '🔥 Bundles (scroll) -►';
 
-  const content = document.createElement('div');
-  content.className = 'section-content';
 
   const scrollContainer = document.createElement('div');
   scrollContainer.className = 'section-content';

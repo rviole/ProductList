@@ -1,13 +1,35 @@
 [
     {
         "id": "bundle1",
-        "name": "Snack Attack Bundle",
-        "description": "Chips LAYS MEGA + 2x Pepsi 0.33L",
+        "name": "🗿 Clash Royale S",
+        "description": "1 𐀪",
+        "bundle_price": 2.59,
+        "items": [
+            {
+                "product_name": "Chips LAYS",
+                "product_description": " - ANY Flavor - (MEGA pack)",
+                "quantity": 1,
+                "unit_price": 2.19,
+                "image": "assets/chips_lays_fromage_flavor_200g.png"
+            },
+            {
+                "product_name": "Pepsi",
+                "product_description": "(Can 0.33L)",
+                "quantity": 1,
+                "unit_price": 0.79,
+                "image": "assets/pepsi_can_0.33l.png"
+            }
+        ]
+    },
+    {
+        "id": "bundle11",
+        "name": "🗿 Clash Royale SS",
+        "description": "1-2 𐀪",
         "bundle_price": 3.49,
         "items": [
             {
                 "product_name": "Chips LAYS",
-                "product_description": "Any Flavor (MEGA pack)",
+                "product_description": " - ANY Flavor - (MEGA pack)",
                 "quantity": 1,
                 "unit_price": 2.19,
                 "image": "assets/chips_lays_fromage_flavor_200g.png"
@@ -23,8 +45,8 @@
     },
     {
         "id": "bundle2",
-        "name": "Evening Netflix Bundle",
-        "description": "Pizza \"Margarita\" + Coca Cola 1L",
+        "name": "Netflix M Bundle",
+        "description": "1-2 𐀪",
         "bundle_price": 3.49,
         "items": [
             {
@@ -40,6 +62,101 @@
                 "quantity": 1,
                 "unit_price": 1.29,
                 "image": "assets/coca_cola_1L.png"
+            }
+        ]
+    },
+    {
+        "id": "bundle3",
+        "name": "Netflix MM Bundle",
+        "description": "2 𐀪",
+        "bundle_price": 5.55,
+        "items": [
+            {
+                "product_name": "Chips LAYS",
+                "product_description": " - ANY Flavor - (MEGA pack)",
+                "quantity": 1,
+                "unit_price": 2.19,
+                "image": "assets/chips_lays_cheese_flavor_200g.webp"
+            },
+            {
+                "product_name": "Mini Pizza \"Mozzarella\"",
+                "product_description": "(Microwavable, 300 g)",
+                "quantity": 1,
+                "unit_price": 2.49,
+                "image": "assets/pizza_mozzarella.png"
+            },
+            {
+                "product_name": "Pepsi",
+                "product_description": "1L",
+                "quantity": 1,
+                "unit_price": 1.39,
+                "image": "assets/pepsi_bottle_0.5l.jpeg"
+            }
+        ]
+    },
+    {
+        "id": "bundle4",
+        "name": "Low Fat Bundle",
+        "description": "1 𐀪",
+        "bundle_price": 2.09,
+        "items": [
+            {
+                "product_name": "Chips LAYS (Oven Baked)",
+                "product_description": " - \"Grilled Vegetables\"",
+                "quantity": 1,
+                "unit_price": 1.49,
+                "image": "assets/chips_lays_baked_grilled_vegetables_flavor_110g.png"
+            },
+            {
+                "product_name": "Pepsi",
+                "product_description": "Zero 0.33L Can",
+                "unit_price": 0.79,
+                "quantity": 1,
+                "image": "assets/pepsi_zero_can_0.33l.png"
+            }
+        ]
+    },
+    {
+        "id": "summer_s",
+        "name": "Summer Chill S",
+        "description": "2 𐀪",
+        "bundle_price": 2.29,
+        "items": [
+            {
+                "product_name": "Ice Cream",
+                "product_description": " - Chocolate/Strawberry/Vanilla Flavour",
+                "quantity": 2,
+                "unit_price": 0.59,
+                "image": "assets/icecream_chocolate.png"
+            },
+            {
+                "product_name": "Coca Cola",
+                "product_description": "Can 0.33L",
+                "quantity": 2,
+                "unit_price": 0.79,
+                "image": "assets/pepsi_can_0.33l.png"
+            }
+        ]
+    },
+    {
+        "id": "diabetes_M",
+        "name": "💀 Diabetes M",
+        "description": "2-4 𐀪",
+        "bundle_price": 4.44,
+        "items": [
+            {
+                "product_name": "Ice Cream",
+                "product_description": " - Chocolate/Strawberry/Vanilla Flavour",
+                "quantity": 4,
+                "unit_price": 0.59,
+                "image": "assets/icecream_chocolate.png"
+            },
+            {
+                "product_name": "Glazed Curds",
+                "product_description": " - Vanilla/Chocolate Flavor",
+                "quantity": 4,
+                "unit_price": 0.59,
+                "image": "assets/glazed_curds_vanilla_flavor_1pcs.png"
             }
         ]
     }
