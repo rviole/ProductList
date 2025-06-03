@@ -324,7 +324,7 @@ function renderBundles(bundles) {
 
   const title = document.createElement('div');
   title.className = 'section-title';
-  title.textContent = '🔥 Bundles';
+  title.textContent = '🔥 Bundles --▶';
 
   const content = document.createElement('div');
   content.className = 'section-content';
@@ -364,7 +364,7 @@ function renderHotProducts(hotProducts) {
 
   const title = document.createElement('div');
   title.className = 'section-title';
-  title.textContent = '🔥 Hot';
+  title.textContent = '🔥 Hot --▶';
 
   const content = document.createElement('div');
   content.className = 'section-content';

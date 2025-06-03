@@ -141,7 +141,7 @@
       "name": "🍽️ Lunch",
       "products": [
         {
-          "name": "Instance Noodles SUN YAN ",
+          "name": "Instance Noodles SUN YAN",
           "description": "Hot & Spicy Flavor, 65 g",
           "unit": "1 pcs",
           "sell_price": 1.19,
@@ -150,8 +150,9 @@
           "image": "assets/SunYan_instant_noodles_hot_and_spicy_65g.png",
           "most_popular": false,
           "new": true
-        }, {
-          "name": "Instance Noodles SUN YAN ",
+        },
+        {
+          "name": "Instance Noodles SUN YAN",
           "description": "Asian Chicken Flavor, 65 g",
           "unit": "1 pcs",
           "sell_price": 1.19,
@@ -162,7 +163,7 @@
           "new": true
         },
         {
-          "name": "Instance Noodles SUN YAN ",
+          "name": "Instance Noodles SUN YAN",
           "description": "Roasted Beef Flavor, 65 g",
           "unit": "1 pcs",
           "sell_price": 1.19,
@@ -434,7 +435,7 @@
           "description": "GoldBears",
           "unit": "100 g",
           "sell_price": 1.99,
-          "discount_price": 1.99,
+          "discount_price": 1.49,
           "quantity": 4,
           "image": "assets/jelly_haribo_goldbears_100g.png",
           "most_popular": false,
