@@ -77,7 +77,7 @@ function renderNavigation(sections) {
   const bundleLi = document.createElement('li');
   const bundleA = document.createElement('a');
   bundleA.href = '#bundles';
-  bundleA.textContent = '🔥 Bundles -►';
+  bundleA.textContent = '🔥 Bundles (scroll) -►';
   bundleA.className = 'nav-link';
   bundleA.addEventListener('click', function (e) {
     e.preventDefault();
@@ -280,7 +280,7 @@ function renderBundles(bundles) {
 
   const title = document.createElement('div');
   title.className = 'section-title';
-  title.textContent = '🔥 Bundles -►';
+  title.textContent = '🔥 Bundles (scroll) -►';
 
   const content = document.createElement('div');
   content.className = 'section-content';
