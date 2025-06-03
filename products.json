@@ -541,22 +541,6 @@
           "new": false
         }
       ]
-    },
-    {
-      "name": "💊 Other",
-      "products": [
-        {
-          "name": "Condoms \"Durex\"",
-          "description": "Classic, 3 pcs",
-          "unit": "1 pack",
-          "sell_price": 3.99,
-          "discount_price": 3.99,
-          "quantity": 1,
-          "image": "assets/condoms_durex_classic_3pcs.png",
-          "most_popular": false,
-          "new": false
-        }
-      ]
     }
   ]
 }
