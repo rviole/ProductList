@@ -476,11 +476,33 @@
         },
         {
           "name": "7 Days Croissant",
+          "description": "Cream and Cookies",
+          "unit": "1 pcs",
+          "sell_price": 1.2,
+          "discount_price": 0.99,
+          "quantity": 4,
+          "image": "assets/7days_croissant_cream_and_cookies_blue.png",
+          "most_popular": false,
+          "new": true
+        },
+        {
+          "name": "7 Days Croissant",
+          "description": "Vanilla and Cherry",
+          "unit": "1 pcs",
+          "sell_price": 1.2,
+          "discount_price": 0.99,
+          "quantity": 5,
+          "image": "assets/7days_croissant_vanilla_and_cherry.png",
+          "most_popular": false,
+          "new": true
+        },
+        {
+          "name": "7 Days Croissant",
           "description": "Cacao",
           "unit": "1 pcs",
           "sell_price": 1.2,
           "discount_price": 1.09,
-          "quantity": 2,
+          "quantity": 4,
           "image": "assets/7days_croissant_cream_and_cookies_flavor_1pcs.png",
           "most_popular": false,
           "new": false
