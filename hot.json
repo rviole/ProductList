@@ -22,17 +22,6 @@
         "new": true
     },
     {
-        "name": "Mini Pizza \"Diavolo\"",
-        "description": "Microwavable, 350 g",
-        "unit": "1 box",
-        "sell_price": 2.99,
-        "discount_price": 2.99,
-        "quantity": 1,
-        "image": "assets/pizza_diavolo.png",
-        "most_popular": false,
-        "new": true
-    },
-    {
         "name": "Coca Cola",
         "description": "Bottle",
         "unit": "1 L",
@@ -84,28 +73,6 @@
         "discount_price": 2.19,
         "quantity": 2,
         "image": "assets/chips_pringles_texas_bbq_sauce_165g.png",
-        "most_popular": false,
-        "new": true
-    },
-    {
-        "name": "Jelly \"Haribo\"",
-        "description": "GoldBears",
-        "unit": "100 g",
-        "sell_price": 1.99,
-        "discount_price": 1.49,
-        "quantity": 2,
-        "image": "assets/jelly_haribo_goldbears_100g.webp",
-        "most_popular": false,
-        "new": false
-    },
-    {
-        "name": "Instance Noodles SUN YAN ",
-        "description": "Hot & Spicy Flavor, 65 g",
-        "unit": "1 pcs",
-        "sell_price": 1.19,
-        "discount_price": 0.99,
-        "quantity": 3,
-        "image": "assets/SunYan_instant_noodles_hot_and_spicy_65g.png",
         "most_popular": false,
         "new": true
     },
