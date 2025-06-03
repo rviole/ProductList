@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "name": "🥤 Drinks",
+      "name": "\ud83e\udd64 Drinks",
       "products": [
         {
           "name": "Pepsi",
@@ -141,7 +141,7 @@
       "name": "🍽️ Lunch",
       "products": [
         {
-          "name": "Instance Noodles SUN YAN",
+          "name": "Instance Noodles SUN YAN ",
           "description": "Hot & Spicy Flavor, 65 g",
           "unit": "1 pcs",
           "sell_price": 1.19,
@@ -150,9 +150,8 @@
           "image": "assets/SunYan_instant_noodles_hot_and_spicy_65g.png",
           "most_popular": false,
           "new": true
-        },
-        {
-          "name": "Instance Noodles SUN YAN",
+        }, {
+          "name": "Instance Noodles SUN YAN ",
           "description": "Asian Chicken Flavor, 65 g",
           "unit": "1 pcs",
           "sell_price": 1.19,
@@ -163,7 +162,7 @@
           "new": true
         },
         {
-          "name": "Instance Noodles SUN YAN",
+          "name": "Instance Noodles SUN YAN ",
           "description": "Roasted Beef Flavor, 65 g",
           "unit": "1 pcs",
           "sell_price": 1.19,
@@ -435,108 +434,75 @@
           "description": "GoldBears",
           "unit": "100 g",
           "sell_price": 1.99,
-          "discount_price": 1.49,
-          "quantity": 4,
-          "image": "assets/jelly_haribo_goldbears_100g.png",
-          "most_popular": false,
-          "new": false
-        },
-        {
-          "name": "Wafer \"Kinder Bueno\"",
-          "description": "Milk & Hazelnuts, 43 g",
-          "unit": "1 pack",
-          "sell_price": 1.29,
-          "discount_price": 1.29,
-          "quantity": 2,
-          "image": "assets/wafer_kinder_bueno_milk_and_hazelnuts_43g.png",
-          "most_popular": false,
-          "new": false
-        },
-        {
-          "name": "Wafer \"Kinder Bueno\"",
-          "description": "White, 39 g",
-          "unit": "1 pack",
-          "sell_price": 1.29,
-          "discount_price": 1.29,
-          "quantity": 2,
-          "image": "assets/wafer_kinder_bueno_white_39g.png",
-          "most_popular": false,
-          "new": false
-        },
-        {
-          "name": "Cookies \"Oreo\"",
-          "description": "Original, 154 g",
-          "unit": "1 pack",
-          "sell_price": 1.49,
-          "discount_price": 1.49,
-          "quantity": 0,
-          "image": "assets/cookies_oreo_original_154g.png",
-          "most_popular": false,
-          "new": false
-        },
-        {
-          "name": "Chocolate \"Milka\"",
-          "description": "Alpine Milk, 100 g",
-          "unit": "1 bar",
-          "sell_price": 1.99,
           "discount_price": 1.99,
-          "quantity": 1,
-          "image": "assets/chocolate_milka_alpine_milk_100g.png",
+          "quantity": 2,
+          "image": "assets/jelly_haribo_goldbears_100g.webp",
           "most_popular": false,
           "new": false
         },
         {
-          "name": "Chocolate \"Milka\"",
-          "description": "Oreo, 100 g",
-          "unit": "1 bar",
+          "name": "Jelly \"Haribo\"",
+          "description": "Harry Poter",
+          "unit": "100 g",
           "sell_price": 1.99,
-          "discount_price": 1.99,
+          "discount_price": 1.59,
+          "quantity": 2,
+          "image": "assets/jelly_haribo_harry_poter_100g.png",
+          "most_popular": false,
+          "new": false
+        },
+        {
+          "name": "Jelly \"Sweet Corner\" ",
+          "description": "\"Happy Bears\", MAXI",
+          "unit": "300 g",
+          "sell_price": 1.69,
+          "discount_price": 1.49,
           "quantity": 1,
-          "image": "assets/chocolate_milka_oreo_100g.png",
+          "image": "assets/jelly_sweet_corner_happy_bears_300g.png",
           "most_popular": false,
           "new": false
         },
         {
-          "name": "Chocolate \"Snickers\"",
-          "description": "50 g",
-          "unit": "1 bar",
-          "sell_price": 1.19,
-          "discount_price": 1.19,
-          "quantity": 0,
-          "image": "assets/chocolate_snickers_50g.png",
+          "name": "ROGER Chocolate Waffles",
+          "description": "Coconut Flavor, 40 g",
+          "unit": "1 pcs",
+          "sell_price": 0.49,
+          "discount_price": 0.49,
+          "quantity": 2,
+          "image": "assets/roger_chocolate_waffles_coconut_flavor_40g.png",
           "most_popular": false,
           "new": false
         },
         {
-          "name": "Chocolate \"Mars\"",
-          "description": "51 g",
-          "unit": "1 bar",
-          "sell_price": 1.19,
-          "discount_price": 1.19,
-          "quantity": 0,
-          "image": "assets/chocolate_mars_51g.png",
+          "name": "SoftCakes Biscuits",
+          "description": "Strawberry Flavor",
+          "unit": "1 box",
+          "sell_price": 0.99,
+          "discount_price": 0.99,
+          "quantity": 2,
+          "image": "assets/softcakes_strawberry.png",
           "most_popular": false,
           "new": false
         },
         {
-          "name": "Chocolate \"Twix\"",
-          "description": "50 g",
-          "unit": "1 pack",
-          "sell_price": 1.19,
-          "discount_price": 1.19,
-          "quantity": 0,
-          "image": "assets/chocolate_twix_50g.png",
+          "name": "7 Days Croissant",
+          "description": "Cacao",
+          "unit": "1 pcs",
+          "sell_price": 1.2,
+          "discount_price": 1.09,
+          "quantity": 2,
+          "image": "assets/7days_croissant_cream_and_cookies_flavor_1pcs.png",
           "most_popular": false,
           "new": false
         },
         {
-          "name": "Chocolate \"Kit Kat\"",
-          "description": "41.5 g",
-          "unit": "1 pack",
-          "sell_price": 1.19,
-          "discount_price": 1.19,
-          "quantity": 0,
-          "image": "assets/chocolate_kit_kat_41.5g.png",
+          "name": "KitKat",
+          "description": "Chocolate, 40g",
+          "unit": "1 pcs",
+          "sell_price": 0.69,
+          "discount_price": 0.69,
+          "quantity": 12,
+          "image": "assets/kitkat_chocolate_40g.png",
           "most_popular": false,
           "new": false
         }
