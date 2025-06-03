@@ -35,7 +35,7 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #03052d;
   background-color: var(--bg);
-  color: #333;solid var(--border-color);
+  color: #333;
   line-height: 1.6;
   min-height: 100vh;
 }
