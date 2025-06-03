@@ -53,9 +53,9 @@
           "unit": "1 L",
           "sell_price": 1.49,
           "discount_price": 1.49,
-          "quantity": 1,
+          "quantity": 0,
           "image": "assets/pepsi_bottle_0.5l.jpeg",
-          "most_popular": true,
+          "most_popular": false,
           "new": false
         },
         {
