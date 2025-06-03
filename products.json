@@ -70,17 +70,6 @@
           "new": true
         },
         {
-          "name": "Pepsi",
-          "description": "Bottle",
-          "unit": "0.5 L",
-          "sell_price": 1.2,
-          "discount_price": 0.99,
-          "quantity": 1,
-          "image": "assets/pepsi_bottle_0.5l.jpeg",
-          "most_popular": false,
-          "new": false
-        },
-        {
           "name": "Juice Tropical",
           "description": "Brand \"Solevita\", pack with Straw, 0.2 L",
           "unit": "1 pcs",
@@ -150,7 +139,8 @@
           "image": "assets/SunYan_instant_noodles_hot_and_spicy_65g.png",
           "most_popular": false,
           "new": true
-        }, {
+        },
+        {
           "name": "Instance Noodles SUN YAN ",
           "description": "Asian Chicken Flavor, 65 g",
           "unit": "1 pcs",

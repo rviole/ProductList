@@ -293,14 +293,35 @@ main {
 
 /* Bundle styles */
 .bundle-grid {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
   gap: 1.5rem;
+  padding: 1rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
 }
 
 @media (min-width: 768px) {
   .bundle-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.bundle-card {
+  flex: 0 0 auto;
+  width: 300px; /* Default for mobile */
+}
+
+@media (min-width: 768px) {
+  .bundle-card {
+    width: 350px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .bundle-card {
+    width: 400px;
   }
 }
 
@@ -1153,3 +1174,64 @@ main {
 }
 
 
+/*  ------------------------------------------------------- */
+
+
+
+/* Add folding functionality styles for info section */
+.info-section {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  padding: 0 1rem;
+}
+
+.info-section.open {
+  max-height: 500px; /* sufficiently large to show content */
+  padding: 1rem;
+  cursor: default;
+}
+
+/* Hot Deals Section */
+.hot-deals-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding: 1rem 0;
+}
+
+.hot-deals-container {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.hot-deals-container .product-card {
+  flex: 0 0 auto;
+  width: 160px; /* Default for mobile */
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .hot-deals-container .product-card {
+    width: 200px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .hot-deals-container .product-card {
+    width: 240px;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1280px) {
+  .hot-deals-container .product-card {
+    width: 280px;
+  }
+}

@@ -13,6 +13,32 @@ async function fetchProducts() {
   }
 }
 
+// Function to fetch and render hot deals
+async function fetchHotDeals() {
+  try {
+    const response = await fetch('hot.json');
+    if (!response.ok) {
+      throw new Error('Failed to fetch hot deals');
+    }
+    const hotDeals = await response.json();
+    const hotDealsContainer = document.getElementById('hot-deals-content');
+
+    if (hotDealsContainer) {
+      hotDealsContainer.innerHTML = '';
+      hotDeals.forEach(product => {
+        const card = renderProductCard(product);
+        hotDealsContainer.appendChild(card);
+      });
+    }
+  } catch (error) {
+    console.error('Error fetching hot deals:', error);
+    const hotDealsSection = document.getElementById('hot-deals');
+    if (hotDealsSection) {
+      hotDealsSection.style.display = 'none';
+    }
+  }
+}
+
 // Function to fetch the bundles data
 async function fetchBundles() {
   try {
@@ -51,9 +77,9 @@ function renderNavigation(sections) {
   const bundleLi = document.createElement('li');
   const bundleA = document.createElement('a');
   bundleA.href = '#bundles';
-  bundleA.textContent = '🔥 Bundles';
+  bundleA.textContent = '🔥 Bundles -►';
   bundleA.className = 'nav-link';
-  bundleA.addEventListener('click', function(e) {
+  bundleA.addEventListener('click', function (e) {
     e.preventDefault();
     const target = document.getElementById('bundles');
     if (target) {
@@ -79,7 +105,7 @@ function renderNavigation(sections) {
     a.href = `#${sectionId}`;
     a.textContent = section.name;
     a.className = 'nav-link';
-    a.addEventListener('click', function(e) {
+    a.addEventListener('click', function (e) {
       e.preventDefault();
       const target = document.getElementById(sectionId);
       if (target) {
@@ -110,17 +136,17 @@ function renderBundleCard(bundle) {
   // Bundle images section
   const imagesSection = document.createElement('div');
   imagesSection.className = 'bundle-images';
-  
+
   bundle.items.forEach(item => {
     if (item.image) {
       const imageContainer = document.createElement('div');
       imageContainer.className = 'bundle-item-image';
-      
+
       const img = document.createElement('img');
       img.src = item.image;
       img.alt = item.product_name;
       img.className = 'bundle-product-img';
-      img.onerror = function() {
+      img.onerror = function () {
         // On image error, replace with placeholder
         this.style.display = 'none';
         imageContainer.classList.add(getRandomColorClass());
@@ -129,7 +155,7 @@ function renderBundleCard(bundle) {
         placeholder.textContent = item.product_name.charAt(0).toUpperCase();
         imageContainer.appendChild(placeholder);
       };
-      
+
       // Add quantity indicator if more than 1
       if (item.quantity > 1) {
         const quantityBadge = document.createElement('div');
@@ -137,7 +163,7 @@ function renderBundleCard(bundle) {
         quantityBadge.textContent = `x${item.quantity}`;
         imageContainer.appendChild(quantityBadge);
       }
-      
+
       imageContainer.appendChild(img);
       imagesSection.appendChild(imageContainer);
     }
@@ -175,10 +201,10 @@ function renderBundleCard(bundle) {
   bundle.items.forEach(item => {
     const itemElement = document.createElement('li');
     itemElement.className = 'bundle-item';
-    
+
     const quantity = item.quantity > 1 ? `${item.quantity}x ` : '';
     itemElement.textContent = `${quantity}${item.product_name} ${item.product_description}`;
-    
+
     totalNormalPrice += item.unit_price * item.quantity;
     itemsList.appendChild(itemElement);
   });
@@ -242,7 +268,7 @@ function renderBundleCard(bundle) {
 // Function to render bundles section
 function renderBundles(bundles) {
   const bundlesSection = document.getElementById('bundles');
-  
+
   if (!bundlesSection) {
     console.error('Bundles section not found in HTML');
     return;
@@ -254,16 +280,19 @@ function renderBundles(bundles) {
 
   const title = document.createElement('div');
   title.className = 'section-title';
-  title.textContent = '🔥 Bundles';
+  title.textContent = '🔥 Bundles -►';
 
   const content = document.createElement('div');
   content.className = 'section-content';
 
+  const scrollContainer = document.createElement('div');
+  scrollContainer.className = 'section-content';
+  
   if (!bundles || bundles.length === 0) {
     const empty = document.createElement('p');
     empty.className = 'empty';
     empty.textContent = 'No bundles available at the moment.';
-    content.appendChild(empty);
+    scrollContainer.appendChild(empty);
   } else {
     const bundleGrid = document.createElement('div');
     bundleGrid.className = 'bundle-grid';
@@ -272,11 +301,11 @@ function renderBundles(bundles) {
       bundleGrid.appendChild(renderBundleCard(bundle));
     });
 
-    content.appendChild(bundleGrid);
+    scrollContainer.appendChild(bundleGrid);
   }
 
   bundlesSection.appendChild(title);
-  bundlesSection.appendChild(content);
+  bundlesSection.appendChild(scrollContainer);
 }
 
 // Function to render a product card
@@ -294,7 +323,7 @@ function renderProductCard(product) {
     img.src = product.image;
     img.alt = product.name;
     img.className = 'product-img';
-    img.onerror = function() {
+    img.onerror = function () {
       // On image error, replace with placeholder
       this.style.display = 'none';
       imageContainer.classList.add(colorClass);
@@ -494,9 +523,9 @@ function setupSearch() {
   const searchInput = document.getElementById('search-input');
   const clearButton = document.getElementById('clear-search');
 
-  searchInput.addEventListener('input', function() {
+  searchInput.addEventListener('input', function () {
     const query = this.value.trim().toLowerCase();
-    
+
     if (query.length > 0) {
       clearButton.classList.add('visible');
       filterProducts(query);
@@ -506,7 +535,7 @@ function setupSearch() {
     }
   });
 
-  clearButton.addEventListener('click', function() {
+  clearButton.addEventListener('click', function () {
     searchInput.value = '';
     clearButton.classList.remove('visible');
     showAllProducts();
@@ -516,11 +545,11 @@ function setupSearch() {
 
 function filterProducts(query) {
   const filteredSections = allSections.map(section => {
-    const filteredProducts = section.products.filter(product => 
+    const filteredProducts = section.products.filter(product =>
       product.name.toLowerCase().includes(query) ||
       product.description.toLowerCase().includes(query)
     );
-    
+
     return {
       ...section,
       products: filteredProducts
@@ -529,7 +558,7 @@ function filterProducts(query) {
 
   const searchData = { sections: filteredSections };
   renderSections(searchData);
-  
+
   // Hide bundles section during search
   const bundlesSection = document.getElementById('bundles');
   if (bundlesSection) {
@@ -540,7 +569,7 @@ function filterProducts(query) {
 function showAllProducts() {
   const originalData = { sections: allSections };
   renderSections(originalData);
-  
+
   // Show bundles section when not searching
   const bundlesSection = document.getElementById('bundles');
   if (bundlesSection) {
@@ -548,36 +577,79 @@ function showAllProducts() {
   }
 }
 
+
+
+
+// Setup info section interactivity
+function setupInfoSection() {
+  const infoTitle = document.getElementById('info-section-title');
+  const infoContent = document.getElementById('info-section-content');
+  
+  if (!infoTitle || !infoContent) return;
+
+  infoTitle.addEventListener('click', () => {
+    const isOpen = infoContent.classList.toggle('open');
+    infoTitle.setAttribute('aria-expanded', isOpen);
+    infoContent.setAttribute('aria-hidden', !isOpen);
+  });
+
+  infoTitle.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      infoTitle.click();
+    }
+  });
+}
+
+// Handle product data loading and rendering
+async function initializeProducts() {
+  const contentElement = document.getElementById('content');
+  
+  try {
+    const [productsData, bundlesData] = await Promise.all([
+      fetchProducts(),
+      fetchBundles()
+    ]);
+
+    if (productsData?.sections) {
+      allSections = productsData.sections;
+      allProducts = productsData.sections.flatMap(section => section.products);
+      renderNavigation(productsData.sections);
+      renderSections(productsData);
+    } else {
+      throw new Error('Invalid products data structure');
+    }
+
+    if (bundlesData) {
+      renderBundles(bundlesData);
+    }
+
+  } catch (error) {
+    console.error('Error initializing products:', error);
+    contentElement.innerHTML = `
+      <div class="error">
+        Failed to load products. Please try again later.
+      </div>
+    `;
+  }
+}
+
 // Initialize the application
 async function init() {
-  setupMobileNav();
-  setupSearch();
-  setupCartFunctionality();
+  try {
+    // Setup UI components
+    setupMobileNav();
+    setupSearch();
+    setupCartFunctionality();
+    setupInfoSection();
 
-  const [productsData, bundlesData] = await Promise.all([
-    fetchProducts(),
-    fetchBundles()
-  ]);
-
-  if (productsData) {
-    allSections = productsData.sections;
-    allProducts = productsData.sections.flatMap(section => section.products);
-    
-    renderNavigation(productsData.sections);
-    renderSections(productsData);
-  } else {
-    const contentElement = document.getElementById('content');
-    contentElement.innerHTML = '';
-
-    const error = document.createElement('div');
-    error.className = 'error';
-    error.textContent = 'Failed to load products. Please try again later.';
-    contentElement.appendChild(error);
-  }
-
-  // Render bundles
-  if (bundlesData) {
-    renderBundles(bundlesData);
+    // Initialize content
+    await Promise.all([
+      initializeProducts(),
+      fetchHotDeals()
+    ]);
+  } catch (error) {
+    console.error('Application initialization failed:', error);
   }
 }
 
@@ -650,11 +722,11 @@ function updateCartDisplay() {
     return `
       <div class="cart-item">
         <div class="cart-item-image">
-          ${item.image ? 
-            `<img src="${item.image}" alt="${item.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          ${item.image ?
+        `<img src="${item.image}" alt="${item.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
              <span class="cart-item-placeholder" style="display:none;">${item.name.charAt(0)}</span>` :
-            `<span class="cart-item-placeholder">${item.name.charAt(0)}</span>`
-          }
+        `<span class="cart-item-placeholder">${item.name.charAt(0)}</span>`
+      }
         </div>
         <div class="cart-item-details">
           <div class="cart-item-name">${item.name}</div>
@@ -709,7 +781,7 @@ function orderDirect(item, type) {
     quantity: 1,
     originalItem: item
   }];
-  
+
   showOrderModal(tempCart);
 }
 
@@ -722,7 +794,7 @@ function generateOrderText(cartItems = cart) {
   cartItems.forEach(item => {
     const itemTotal = item.price * item.quantity;
     total += itemTotal;
-    
+
     orderText += `📦 ${item.quantity}x ${item.name}\n`;
     if (item.description) {
       orderText += `   ${item.description}\n`;
@@ -741,7 +813,7 @@ function generateOrderText(cartItems = cart) {
 function showOrderModal(customCart = null) {
   const modal = document.getElementById('order-modal');
   const orderText = document.getElementById('order-text');
-  
+
   orderText.value = generateOrderText(customCart || cart);
   modal.classList.add('active');
 }

@@ -1,7 +1,7 @@
 [
     {
         "name": "Chips LAYS (Oven Baked)",
-        "description": "Grilled Vegetables Flavour",
+        "description": "Grilled Vegetables",
         "unit": "110 g",
         "sell_price": 1.49,
         "discount_price": 1.49,
@@ -78,7 +78,7 @@
     },
     {
         "name": "Instance Noodles SUN YAN ",
-        "description": "Asian Chicken Flavor, 65 g",
+        "description": "Asian Chicken, 65 g",
         "unit": "1 pcs",
         "sell_price": 1.19,
         "discount_price": 0.99,
@@ -89,7 +89,7 @@
     },
     {
         "name": "Instance Noodles SUN YAN ",
-        "description": "Roasted Beef Flavor, 65 g",
+        "description": "Roasted Beef, 65 g",
         "unit": "1 pcs",
         "sell_price": 1.19,
         "discount_price": 0.99,

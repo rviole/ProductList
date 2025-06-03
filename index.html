@@ -44,32 +44,45 @@
           </div>
         </div>
 
-        <div class="section">
-          <div class="section-title collapsible-title" id="info-toggle">
-            Info
-            <span class="collapse-arrow">▼</span>
+        <div class="section" id="info-section-container">
+          <div class="section-title" id="info-section-title" style="cursor:pointer; user-select:none;" tabindex="0"
+            aria-expanded="false" aria-controls="info-section-content">
+            Info ▼
           </div>
-          <div class="info-section collapsible-content" id="info-content">
+          <div class="info-section" id="info-section-content" aria-hidden="true">
             <h2 class="pitch">We restock most of our supplies daily!</h2>
-            <br>
+            <br />
             <div class="order-steps">
               <div class="step">1. Add items to your cart</div>
               <div class="step">2. Review your order</div>
-              <div class="step">3. Press Order - it will send the order via WhatsApp or Telegram</div>
+              <div class="step">
+                3. Press Order - it will send the order via WhatsApp or Telegram
+              </div>
             </div>
-            <br>
+            <br />
             <div class="contact-info">
-              WhatsApp: <a class='number' href="#">+370 694 35 569</a><br>
-              Telegram: <a class='number' href="https://t.me/dorm_cartel_boss">@dorm_cartel_boss</a>
+              WhatsApp:
+              <a class="number" href="#">+370 694 35 569</a><br />
+              Telegram:
+              <a class="number" href="https://t.me/dorm_cartel_boss">@dorm_cartel_boss</a>
             </div>
             <div class="delivery-highlight">
-                ⚡ <strong>Delivery in 5 minutes | 🕒 Working 24/7</strong> 
+              ⚡ <strong>Delivery in 5 minutes | 🕒 Working 24/7</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" id="hot-deals">
+          <div class="section-title">🔥 Hot Deals  -► </div>
+          <div class="section-content">
+            <div class="hot-deals-scroll">
+              <div id="hot-deals-content" class="hot-deals-container"></div>
             </div>
           </div>
         </div>
 
         <div class="section" id="bundles">
-          <div class="section-title">🔥 Bundles</div>
+          <div class="section-title">🔥 Bundles  -►  </div>
           <div class="section-content">
             <div class="loading">
               <div class="loading-spinner"></div>
